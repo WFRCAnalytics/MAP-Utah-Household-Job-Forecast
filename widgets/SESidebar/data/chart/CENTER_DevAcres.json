@@ -1,0 +1,1026 @@
+[
+	{
+		"CenterName":"BYU",
+		"DEVACRES":413.91900634765625
+	},
+	{
+		"CenterName":"Crossroads",
+		"DEVACRES":548.093994140625
+	},
+	{
+		"CenterName":"Downtown Provo",
+		"DEVACRES":1822.6099853515625
+	},
+	{
+		"CenterName":"Downtown Springville",
+		"DEVACRES":416.85101318359375
+	},
+	{
+		"CenterName":"Eagle Mountain",
+		"DEVACRES":519.2659912109375
+	},
+	{
+		"CenterName":"East Bay",
+		"DEVACRES":479.0409851074219
+	},
+	{
+		"CenterName":"Highland",
+		"DEVACRES":214.572998046875
+	},
+	{
+		"CenterName":"Hillcrest",
+		"DEVACRES":554.9530029296875
+	},
+	{
+		"CenterName":"Lehi Main Street",
+		"DEVACRES":56.60879898071289
+	},
+	{
+		"CenterName":"Lindon",
+		"DEVACRES":757.7559814453125
+	},
+	{
+		"CenterName":"Meadows",
+		"DEVACRES":520.89501953125
+	},
+	{
+		"CenterName":"North Park",
+		"DEVACRES":143.34500122070312
+	},
+	{
+		"CenterName":"Orem-1600 North",
+		"DEVACRES":102.23999786376953
+	},
+	{
+		"CenterName":"Orem-800 North",
+		"DEVACRES":181.5659942626953
+	},
+	{
+		"CenterName":"Orem-Center Street",
+		"DEVACRES":230.91700744628906
+	},
+	{
+		"CenterName":"Payson Industrial",
+		"DEVACRES":332.5899963378906
+	},
+	{
+		"CenterName":"Payson Main Street",
+		"DEVACRES":303.2359924316406
+	},
+	{
+		"CenterName":"Pleasant Grove",
+		"DEVACRES":303.4070129394531
+	},
+	{
+		"CenterName":"Provo Airport",
+		"DEVACRES":790.97900390625
+	},
+	{
+		"CenterName":"Riverwoods",
+		"DEVACRES":275.7040100097656
+	},
+	{
+		"CenterName":"Salem",
+		"DEVACRES":68.94239807128906
+	},
+	{
+		"CenterName":"Scera Park",
+		"DEVACRES":88.74839782714844
+	},
+	{
+		"CenterName":"Spanish Fork Industrial",
+		"DEVACRES":602.531982421875
+	},
+	{
+		"CenterName":"Spanish Fork Main Street",
+		"DEVACRES":67.55670166015625
+	},
+	{
+		"CenterName":"Spanish Fork West",
+		"DEVACRES":65.46289825439453
+	},
+	{
+		"CenterName":"Springville Industrial Park",
+		"DEVACRES":1123.75
+	},
+	{
+		"CenterName":"Thanksgiving Point",
+		"DEVACRES":918.208984375
+	},
+	{
+		"CenterName":"Timpanogos",
+		"DEVACRES":624.6199951171875
+	},
+	{
+		"CenterName":"University Center",
+		"DEVACRES":686.2919921875
+	},
+	{
+		"CenterName":"UVU",
+		"DEVACRES":246.7989959716797
+	},
+	{
+		"CenterName":"UVU West",
+		"DEVACRES":35.90520095825195
+	},
+	{
+		"CenterName":"Vineyard",
+		"DEVACRES":363.6099853515625
+	},
+	{
+		"CenterName":"West Orem",
+		"DEVACRES":179.75399780273438
+	},
+	{
+		"CenterName":"West Layton Town Center",
+		"DEVACRES":84.20439910888672
+	},
+	{
+		"CenterName":"Layton Industrial Center",
+		"DEVACRES":422.78399658203125
+	},
+	{
+		"CenterName":"Layton Midtown",
+		"DEVACRES":1052.530029296875
+	},
+	{
+		"CenterName":"Layton Downtown",
+		"DEVACRES":284.6929931640625
+	},
+	{
+		"CenterName":"Gentile & Fairfield Town Center",
+		"DEVACRES":78.89990234375
+	},
+	{
+		"CenterName":"Gordon & Fairfield Town Center",
+		"DEVACRES":70.6854019165039
+	},
+	{
+		"CenterName":"Hwy 89 & Gordon Town Center",
+		"DEVACRES":41.072601318359375
+	},
+	{
+		"CenterName":"Church & Hwy 193 Town Center",
+		"DEVACRES":62.06019973754883
+	},
+	{
+		"CenterName":"Weber State University Davis",
+		"DEVACRES":391.0379943847656
+	},
+	{
+		"CenterName":"West Davis Business Center",
+		"DEVACRES":152.95399475097656
+	},
+	{
+		"CenterName":"Daybreak",
+		"DEVACRES":793.2579956054688
+	},
+	{
+		"CenterName":"SoDa Row",
+		"DEVACRES":38.53089904785156
+	},
+	{
+		"CenterName":"The District",
+		"DEVACRES":246.61700439453125
+	},
+	{
+		"CenterName":"South Jordan Towne Center",
+		"DEVACRES":399.63299560546875
+	},
+	{
+		"CenterName":"River Park",
+		"DEVACRES":165.19000244140625
+	},
+	{
+		"CenterName":"Freeport Center",
+		"DEVACRES":1387.1700439453125
+	},
+	{
+		"CenterName":"East Antelope Center",
+		"DEVACRES":206.3419952392578
+	},
+	{
+		"CenterName":"Syracuse City Center",
+		"DEVACRES":335.7869873046875
+	},
+	{
+		"CenterName":"Trailside Center",
+		"DEVACRES":11.96660041809082
+	},
+	{
+		"CenterName":"West Point City Center",
+		"DEVACRES":242.73199462890625
+	},
+	{
+		"CenterName":"West Point West Davis",
+		"DEVACRES":70.44139862060547
+	},
+	{
+		"CenterName":"Sunset SR 126",
+		"DEVACRES":154.6529998779297
+	},
+	{
+		"CenterName":"Roy Downtown",
+		"DEVACRES":407.71099853515625
+	},
+	{
+		"CenterName":"Falcon Hill",
+		"DEVACRES":572.7470092773438
+	},
+	{
+		"CenterName":"West Riverdale Center",
+		"DEVACRES":121.98600006103516
+	},
+	{
+		"CenterName":"Riverdale City Center",
+		"DEVACRES":458.7099914550781
+	},
+	{
+		"CenterName":"West Roy Center",
+		"DEVACRES":52.86000061035156
+	},
+	{
+		"CenterName":"Roy Station",
+		"DEVACRES":310.5710144042969
+	},
+	{
+		"CenterName":"West Haven Midland Drive",
+		"DEVACRES":551.073974609375
+	},
+	{
+		"CenterName":"West Haven City Center",
+		"DEVACRES":737.541015625
+	},
+	{
+		"CenterName":"East Gate Business Center",
+		"DEVACRES":465.2690124511719
+	},
+	{
+		"CenterName":"South Ogden US 89",
+		"DEVACRES":127.9729995727539
+	},
+	{
+		"CenterName":"South Ogden Gateway",
+		"DEVACRES":335.7120056152344
+	},
+	{
+		"CenterName":"Weber State University",
+		"DEVACRES":359.63299560546875
+	},
+	{
+		"CenterName":"Ogden Harrison Boulevard South",
+		"DEVACRES":201.9759979248047
+	},
+	{
+		"CenterName":"Ogden Harrison Boulevard North",
+		"DEVACRES":147.49099731445312
+	},
+	{
+		"CenterName":"West Ogden Center",
+		"DEVACRES":203.24600219726562
+	},
+	{
+		"CenterName":"Ogden Airport Industrial District",
+		"DEVACRES":1352.050048828125
+	},
+	{
+		"CenterName":"Ogden-Hinckley Airport Center",
+		"DEVACRES":811.1589965820312
+	},
+	{
+		"CenterName":"Ogden 12th Street",
+		"DEVACRES":209.718994140625
+	},
+	{
+		"CenterName":"Business Depot Ogden",
+		"DEVACRES":1794.1600341796875
+	},
+	{
+		"CenterName":"Marriott-Slaterville Employment District",
+		"DEVACRES":278.65399169921875
+	},
+	{
+		"CenterName":"West Weber",
+		"DEVACRES":58.545799255371094
+	},
+	{
+		"CenterName":"Five Points",
+		"DEVACRES":361.4440002441406
+	},
+	{
+		"CenterName":"Harrisville US 89",
+		"DEVACRES":170.7729949951172
+	},
+	{
+		"CenterName":"Pleasant View 2700 North",
+		"DEVACRES":511.65301513671875
+	},
+	{
+		"CenterName":"Pleasant View Employment Center",
+		"DEVACRES":472.58099365234375
+	},
+	{
+		"CenterName":"Pleasant View Industrial Center",
+		"DEVACRES":571.5120239257812
+	},
+	{
+		"CenterName":"Farr West 2700 North",
+		"DEVACRES":115.80799865722656
+	},
+	{
+		"CenterName":"Plain City Gateway",
+		"DEVACRES":41.85649871826172
+	},
+	{
+		"CenterName":"Plain City Market Center",
+		"DEVACRES":12.497900009155273
+	},
+	{
+		"CenterName":"Wheeler Village",
+		"DEVACRES":19.417499542236328
+	},
+	{
+		"CenterName":"Willard Main Street Center",
+		"DEVACRES":38.32809829711914
+	},
+	{
+		"CenterName":"Willard 750 North Center",
+		"DEVACRES":103.43399810791016
+	},
+	{
+		"CenterName":"Maddox Center",
+		"DEVACRES":33.90589904785156
+	},
+	{
+		"CenterName":"Brigham City Medical Center",
+		"DEVACRES":30.535499572753906
+	},
+	{
+		"CenterName":"Brigham City Industrial Center",
+		"DEVACRES":2294.429931640625
+	},
+	{
+		"CenterName":"Brigham City Airport",
+		"DEVACRES":503.2959899902344
+	},
+	{
+		"CenterName":"900 East Station",
+		"DEVACRES":21.04990005493164
+	},
+	{
+		"CenterName":"9th and 9th Center",
+		"DEVACRES":23.65290069580078
+	},
+	{
+		"CenterName":"Marmalade",
+		"DEVACRES":209.96499633789062
+	},
+	{
+		"CenterName":"Rose Park Center",
+		"DEVACRES":29.58970069885254
+	},
+	{
+		"CenterName":"North Temple Center",
+		"DEVACRES":513.802978515625
+	},
+	{
+		"CenterName":"Salt Lake 900 West",
+		"DEVACRES":52.26150131225586
+	},
+	{
+		"CenterName":"Granary District",
+		"DEVACRES":304.69000244140625
+	},
+	{
+		"CenterName":"Ballpark",
+		"DEVACRES":545.573974609375
+	},
+	{
+		"CenterName":"Sugarhouse",
+		"DEVACRES":199.91099548339844
+	},
+	{
+		"CenterName":"Salt Lake 15th and 15th",
+		"DEVACRES":1.8988200426101685
+	},
+	{
+		"CenterName":"Salt Lake Foothill Center",
+		"DEVACRES":17.833099365234375
+	},
+	{
+		"CenterName":"21st and 21st",
+		"DEVACRES":30.19260025024414
+	},
+	{
+		"CenterName":"Parleys Foothill Center",
+		"DEVACRES":21.62459945678711
+	},
+	{
+		"CenterName":"Glendale Center",
+		"DEVACRES":8.932640075683594
+	},
+	{
+		"CenterName":"Millcreek 2300 East",
+		"DEVACRES":3.5523500442504883
+	},
+	{
+		"CenterName":"Canyon Rim Center",
+		"DEVACRES":30.694499969482422
+	},
+	{
+		"CenterName":"Millcreek City Center",
+		"DEVACRES":93.72419738769531
+	},
+	{
+		"CenterName":"Fireclay Center",
+		"DEVACRES":123.7300033569336
+	},
+	{
+		"CenterName":"2700 South Station",
+		"DEVACRES":113.99500274658203
+	},
+	{
+		"CenterName":"2300 East 3300 South",
+		"DEVACRES":25.652799606323242
+	},
+	{
+		"CenterName":"Olympus Hills Center",
+		"DEVACRES":36.75859832763672
+	},
+	{
+		"CenterName":"Murray Downtown",
+		"DEVACRES":892.56298828125
+	},
+	{
+		"CenterName":"Ivy Place Center",
+		"DEVACRES":40.45429992675781
+	},
+	{
+		"CenterName":"Oakwood Village Center",
+		"DEVACRES":141.07699584960938
+	},
+	{
+		"CenterName":"Fashion Place West",
+		"DEVACRES":396.1310119628906
+	},
+	{
+		"CenterName":"Murray Medical Park",
+		"DEVACRES":98.25650024414062
+	},
+	{
+		"CenterName":"Murray Industrial District",
+		"DEVACRES":103.7229995727539
+	},
+	{
+		"CenterName":"Fort Union Canyon Center",
+		"DEVACRES":18.88920021057129
+	},
+	{
+		"CenterName":"Cottonwood Heights Fort Union",
+		"DEVACRES":136.02000427246094
+	},
+	{
+		"CenterName":"Sandy Union Park",
+		"DEVACRES":86.76429748535156
+	},
+	{
+		"CenterName":"Union Park",
+		"DEVACRES":554.0640258789062
+	},
+	{
+		"CenterName":"Bingham Junction",
+		"DEVACRES":472.6289978027344
+	},
+	{
+		"CenterName":"Jordan Bluffs",
+		"DEVACRES":253.21400451660156
+	},
+	{
+		"CenterName":"Midvale Fort Union Station",
+		"DEVACRES":38.97169876098633
+	},
+	{
+		"CenterName":"Midvale Center Station",
+		"DEVACRES":66.89640045166016
+	},
+	{
+		"CenterName":"7th Street Sandy Point",
+		"DEVACRES":28.023099899291992
+	},
+	{
+		"CenterName":"Quarry Bend Center",
+		"DEVACRES":154.25
+	},
+	{
+		"CenterName":"Sandy Village Center",
+		"DEVACRES":125.18000030517578
+	},
+	{
+		"CenterName":"Alta Canyon Park Center",
+		"DEVACRES":98.07579803466797
+	},
+	{
+		"CenterName":"Sandy Crescent View Station",
+		"DEVACRES":6.89162015914917
+	},
+	{
+		"CenterName":"The Cairns",
+		"DEVACRES":1175.6099853515625
+	},
+	{
+		"CenterName":"Kearns Town Center",
+		"DEVACRES":38.8046989440918
+	},
+	{
+		"CenterName":"Kearns Warehouse District",
+		"DEVACRES":113.28600311279297
+	},
+	{
+		"CenterName":"The Point",
+		"DEVACRES":874.1649780273438
+	},
+	{
+		"CenterName":"Marketview Center",
+		"DEVACRES":83.14309692382812
+	},
+	{
+		"CenterName":"Herriman Porter Rockwell Center",
+		"DEVACRES":340.614013671875
+	},
+	{
+		"CenterName":"SLCC RSL",
+		"DEVACRES":234.93699645996094
+	},
+	{
+		"CenterName":"Herriman Town Center",
+		"DEVACRES":451.57501220703125
+	},
+	{
+		"CenterName":"Olympia Hills",
+		"DEVACRES":881.8599853515625
+	},
+	{
+		"CenterName":"SW Salt Lake Employment District",
+		"DEVACRES":971.2109985351562
+	},
+	{
+		"CenterName":"Mountain View Village",
+		"DEVACRES":467.16400146484375
+	},
+	{
+		"CenterName":"Downtown Riverton",
+		"DEVACRES":308.93701171875
+	},
+	{
+		"CenterName":"West Jordan Education Center",
+		"DEVACRES":82.9885025024414
+	},
+	{
+		"CenterName":"Jordan Valley",
+		"DEVACRES":164.42799377441406
+	},
+	{
+		"CenterName":"West Jordan City Center",
+		"DEVACRES":455.8299865722656
+	},
+	{
+		"CenterName":"Gardner Village",
+		"DEVACRES":38.686500549316406
+	},
+	{
+		"CenterName":"South Valley Airport",
+		"DEVACRES":722.8980102539062
+	},
+	{
+		"CenterName":"Highlands Loop Center",
+		"DEVACRES":197.8000030517578
+	},
+	{
+		"CenterName":"West Valley 6200 South 5600 West",
+		"DEVACRES":87.88690185546875
+	},
+	{
+		"CenterName":"Village Green Center",
+		"DEVACRES":37.88410186767578
+	},
+	{
+		"CenterName":"Lake Park Center",
+		"DEVACRES":497.4339904785156
+	},
+	{
+		"CenterName":"Fairbourne Station",
+		"DEVACRES":183.80799865722656
+	},
+	{
+		"CenterName":"Hunter Town Center",
+		"DEVACRES":78.9791030883789
+	},
+	{
+		"CenterName":"West Valley Redwood Center",
+		"DEVACRES":340.6239929199219
+	},
+	{
+		"CenterName":"5400 South Redwood",
+		"DEVACRES":180.6009979248047
+	},
+	{
+		"CenterName":"4800 South Redwood",
+		"DEVACRES":36.74509811401367
+	},
+	{
+		"CenterName":"Summit Vista Center",
+		"DEVACRES":122.677001953125
+	},
+	{
+		"CenterName":"Historic Magna Main Street",
+		"DEVACRES":26.460399627685547
+	},
+	{
+		"CenterName":"Salt Lake International Airport",
+		"DEVACRES":6431.64990234375
+	},
+	{
+		"CenterName":"Westpointe Center",
+		"DEVACRES":424.6929931640625
+	},
+	{
+		"CenterName":"International Center",
+		"DEVACRES":1615.1500244140625
+	},
+	{
+		"CenterName":"Salt Lake City Northwest Quadrant",
+		"DEVACRES":19067.900390625
+	},
+	{
+		"CenterName":"Redwood Center",
+		"DEVACRES":113.90799713134766
+	},
+	{
+		"CenterName":"North Salt Lake Town Center",
+		"DEVACRES":194.7209930419922
+	},
+	{
+		"CenterName":"Foxboro",
+		"DEVACRES":56.31230163574219
+	},
+	{
+		"CenterName":"North Salt Lake   Woods Cross Industrial District",
+		"DEVACRES":1601.050048828125
+	},
+	{
+		"CenterName":"2600 South Center",
+		"DEVACRES":139.61700439453125
+	},
+	{
+		"CenterName":"Woods Cross Station",
+		"DEVACRES":27.061199188232422
+	},
+	{
+		"CenterName":"Bountiful Downtown",
+		"DEVACRES":83.00360107421875
+	},
+	{
+		"CenterName":"Gateway Crossing",
+		"DEVACRES":60.16579818725586
+	},
+	{
+		"CenterName":"Pages Lane Center",
+		"DEVACRES":67.27169799804688
+	},
+	{
+		"CenterName":"Centerville Downtown",
+		"DEVACRES":295.2539978027344
+	},
+	{
+		"CenterName":"Sheep Lane Employment District",
+		"DEVACRES":390.1239929199219
+	},
+	{
+		"CenterName":"East Park Lane",
+		"DEVACRES":94.6415023803711
+	},
+	{
+		"CenterName":"Downtown Kaysville",
+		"DEVACRES":254.42300415039062
+	},
+	{
+		"CenterName":"Copperton Community Center",
+		"DEVACRES":18.45039939880371
+	},
+	{
+		"CenterName":"South Willard Center",
+		"DEVACRES":143.0850067138672
+	},
+	{
+		"CenterName":"Kearns Recreation Hub",
+		"DEVACRES":165.9510040283203
+	},
+	{
+		"CenterName":"Midvale Main Street",
+		"DEVACRES":112.56999969482422
+	},
+	{
+		"CenterName":"Kaysville Business Park",
+		"DEVACRES":253.08200073242188
+	},
+	{
+		"CenterName":"Ogden Downtown",
+		"DEVACRES":808.0170288085938
+	},
+	{
+		"CenterName":"Pleasant Green",
+		"DEVACRES":112.4020004272461
+	},
+	{
+		"CenterName":"Perry Park Center",
+		"DEVACRES":17.84709930419922
+	},
+	{
+		"CenterName":"Clinton Town Center",
+		"DEVACRES":461.99700927734375
+	},
+	{
+		"CenterName":"1100 South Center",
+		"DEVACRES":200.47500610351562
+	},
+	{
+		"CenterName":"Brigham City Main Street",
+		"DEVACRES":53.500099182128906
+	},
+	{
+		"CenterName":"Brigham City 900 North Main",
+		"DEVACRES":31.45680046081543
+	},
+	{
+		"CenterName":"Brigham City Historic Downtown",
+		"DEVACRES":91.839599609375
+	},
+	{
+		"CenterName":"USU Brigham City",
+		"DEVACRES":191.33700561523438
+	},
+	{
+		"CenterName":"Historic Sandy Station",
+		"DEVACRES":61.767398834228516
+	},
+	{
+		"CenterName":"Old Mill",
+		"DEVACRES":136.3209991455078
+	},
+	{
+		"CenterName":"Millrock Employment Center",
+		"DEVACRES":130.69900512695312
+	},
+	{
+		"CenterName":"Holladay Crossroads",
+		"DEVACRES":23.374300003051758
+	},
+	{
+		"CenterName":"Highberry Center",
+		"DEVACRES":319.02099609375
+	},
+	{
+		"CenterName":"Oquirrh View Center",
+		"DEVACRES":37.924400329589844
+	},
+	{
+		"CenterName":"Decker Lake Center",
+		"DEVACRES":72.2428970336914
+	},
+	{
+		"CenterName":"River Trail Station",
+		"DEVACRES":122.96199798583984
+	},
+	{
+		"CenterName":"University of Utah",
+		"DEVACRES":955.7960205078125
+	},
+	{
+		"CenterName":"University Gardens",
+		"DEVACRES":32.259700775146484
+	},
+	{
+		"CenterName":"Research Park",
+		"DEVACRES":332.12799072265625
+	},
+	{
+		"CenterName":"Downtown Clearfield",
+		"DEVACRES":650.1259765625
+	},
+	{
+		"CenterName":"Antelope & Main Town Center",
+		"DEVACRES":105.19300079345703
+	},
+	{
+		"CenterName":"West Jordan Industrial District",
+		"DEVACRES":2875.110107421875
+	},
+	{
+		"CenterName":"Jordan Landing",
+		"DEVACRES":282.4599914550781
+	},
+	{
+		"CenterName":"Syracuse SR 193 Center",
+		"DEVACRES":543.2130126953125
+	},
+	{
+		"CenterName":"Cold Springs Center",
+		"DEVACRES":84.98410034179688
+	},
+	{
+		"CenterName":"West 12th Street",
+		"DEVACRES":60.98509979248047
+	},
+	{
+		"CenterName":"West Warren Center",
+		"DEVACRES":24.276100158691406
+	},
+	{
+		"CenterName":"West Weber Industrial Center",
+		"DEVACRES":7698.5498046875
+	},
+	{
+		"CenterName":"Newgate Center",
+		"DEVACRES":528.8410034179688
+	},
+	{
+		"CenterName":"South Ogden City Center",
+		"DEVACRES":243.6820068359375
+	},
+	{
+		"CenterName":"Bacchus Highway Center",
+		"DEVACRES":204.97300720214844
+	},
+	{
+		"CenterName":"Cascade Village",
+		"DEVACRES":41.72999954223633
+	},
+	{
+		"CenterName":"North Shore",
+		"DEVACRES":15.478500366210938
+	},
+	{
+		"CenterName":"South Jordan Gateway",
+		"DEVACRES":357.7879943847656
+	},
+	{
+		"CenterName":"North Ogden Downtown",
+		"DEVACRES":369.4649963378906
+	},
+	{
+		"CenterName":"North Ogden Southtown",
+		"DEVACRES":172.38699340820312
+	},
+	{
+		"CenterName":"Taylrosville West Point Center",
+		"DEVACRES":59.29059982299805
+	},
+	{
+		"CenterName":"Taylorsville Employment Center",
+		"DEVACRES":109.75800323486328
+	},
+	{
+		"CenterName":"Taylors Landing",
+		"DEVACRES":15.256500244140625
+	},
+	{
+		"CenterName":"Sorenson Research Park",
+		"DEVACRES":136.66700744628906
+	},
+	{
+		"CenterName":"Fore Lakes Center",
+		"DEVACRES":244.55999755859375
+	},
+	{
+		"CenterName":"Roper Yards",
+		"DEVACRES":941.6119995117188
+	},
+	{
+		"CenterName":"4100 South Redwood",
+		"DEVACRES":22.027700424194336
+	},
+	{
+		"CenterName":"Downtown South Salt Lake",
+		"DEVACRES":220.31300354003906
+	},
+	{
+		"CenterName":"S-Line Center",
+		"DEVACRES":36.115699768066406
+	},
+	{
+		"CenterName":"South Salt Lake State Street",
+		"DEVACRES":124.79000091552734
+	},
+	{
+		"CenterName":"West Central Employment District",
+		"DEVACRES":165.77200317382812
+	},
+	{
+		"CenterName":"Millcreek Station",
+		"DEVACRES":134.38999938964844
+	},
+	{
+		"CenterName":"Draper Kimballs Lane Station",
+		"DEVACRES":85.80609893798828
+	},
+	{
+		"CenterName":"Draper City Center",
+		"DEVACRES":297.3699951171875
+	},
+	{
+		"CenterName":"Lone Peak Parkway Employment Center",
+		"DEVACRES":752.39501953125
+	},
+	{
+		"CenterName":"Vista Station",
+		"DEVACRES":362.5899963378906
+	},
+	{
+		"CenterName":"Highline",
+		"DEVACRES":335.3190002441406
+	},
+	{
+		"CenterName":"Legacy Crossing",
+		"DEVACRES":98.33760070800781
+	},
+	{
+		"CenterName":"Bountiful 500 South",
+		"DEVACRES":93.74579620361328
+	},
+	{
+		"CenterName":"Bountiful 200 West",
+		"DEVACRES":36.41559982299805
+	},
+	{
+		"CenterName":"Renaissance Towne Center",
+		"DEVACRES":35.81129837036133
+	},
+	{
+		"CenterName":"Orchard Drive 2200 South",
+		"DEVACRES":25.43079948425293
+	},
+	{
+		"CenterName":"Courthouse Downtown",
+		"DEVACRES":48.787498474121094
+	},
+	{
+		"CenterName":"Station Park",
+		"DEVACRES":272.17498779296875
+	},
+	{
+		"CenterName":"North Station",
+		"DEVACRES":256.3800048828125
+	},
+	{
+		"CenterName":"Salt Lake City East Downtown",
+		"DEVACRES":322.875
+	},
+	{
+		"CenterName":"Salt Lake City CBD",
+		"DEVACRES":1114.43994140625
+	},
+	{
+		"CenterName":"12600 South Mountain View Corridor",
+		"DEVACRES":174.46499633789062
+	},
+	{
+		"CenterName":"Legacy Gateway",
+		"DEVACRES":508.53900146484375
+	},
+	{
+		"CenterName":"West Bountiful Industrial District",
+		"DEVACRES":150.85400390625
+	},
+	{
+		"CenterName":"Woods Cross Business Park",
+		"DEVACRES":51.587398529052734
+	},
+	{
+		"CenterName":"Holladay City Center",
+		"DEVACRES":224.90499877929688
+	},
+	{
+		"CenterName":"Cottonwood Village",
+		"DEVACRES":18.11910057067871
+	},
+	{
+		"CenterName":"Independence",
+		"DEVACRES":809.697021484375
+	},
+	{
+		"CenterName":"Porter Rockwell",
+		"DEVACRES":571.8250122070312
+	},
+	{
+		"CenterName":"Washington Terrace US 89",
+		"DEVACRES":206.80299377441406
+	},
+	{
+		"CenterName":"Meadowbrook Station",
+		"DEVACRES":372.3340148925781
+	},
+	{
+		"CenterName":"St Marks Hospital",
+		"DEVACRES":64.51390075683594
+	}
+]

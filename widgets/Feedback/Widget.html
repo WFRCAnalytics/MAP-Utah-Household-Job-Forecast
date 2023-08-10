@@ -1,0 +1,24 @@
+<div>
+    <div id="FEEDBACKTITLE" class="thicker">Please select a feature to submit feedback.</div></br>
+<!--<label for="Name">Name:</label></br>
+    <input type="text" name="name" value=""
+        data-dojo-type="dijit/form/TextBox"
+        data-dojo-props="trim:true, propercase:true" id="Name" /></br></br>
+-->
+    <div id="FEEDBACKFORM" style="display: none;">
+        <label for="Email">Email address:</label></br>
+        <input type="text" name="email" value=""
+            data-dojo-type="dijit/form/TextBox"
+            data-dojo-props="trim:true, propercase:false" id="Email" /></br></br>
+        <label for="feedback">Please enter your comment:</label>
+        <textarea data-dojo-attach-point="focusNode,containerNode,textbox" class="dijitTextBox dijitTextArea" name="feedback" value=""
+            data-dojo-type="dijit/InlineEditBox"
+            style="height: 10em;" id="feedback"></textarea>
+        </br>
+        </br>
+        <div class="jimu-btn" data-dojo-attach-event="onClick: _submitFeedback" id="btnConfirmation" style="width: 100%;">Submit</div>
+        </br>
+        </br>
+    </div>
+    <div id="FEEDBACKHISTORY" style="display: none;">Submitted comments will be displayed here.</div>
+</div>

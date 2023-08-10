@@ -1,0 +1,168 @@
+<div width="100%">
+    <div id="TAB_CONTROL" style="display: block;">
+      <table width="100%;">
+        <tbody>
+          <tr width="100%;">
+            <td id="FORECASTCELL" width="33%;">
+              <div id="FORECAST_CONTROL" class=  "selectedWidget" style="padding-top: 5px;" data-dojo-attach-event="onClick: _selectFORECAST"><div id="FORECAST_ICON" class="pictureFORECAST"><div class="tabcontrol">Forecast            </div></div></div>
+            </td>
+            <td id="CHANGECELL" width="33%;">
+              <div id="CHANGE_CONTROL"   class="unselectedWidget" style="padding-top: 5px;" data-dojo-attach-event="onClick: _selectCHANGE">  <div id="CHANGE_ICON"   class="pictureCHANGE"  ><div class="tabcontrol">Change              </div></div></div>
+            </td>
+            <td id="NEWVSOLDCELL" width="33%;" style="display: none;">
+              <div id="NEWVSOLD_CONTROL" class="unselectedWidget" style="padding-top: 5px;" data-dojo-attach-event="onClick: _selectNEWVSOLD"><div id="NEWVSOLD_ICON" class="pictureNEWVSOLD"><div class="tabcontrol">New&nbsp;vs&nbsp;Old</div></div></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br/>
+    <div>
+        <div style="display: inline;"><strong>Map Geography:&nbsp;&nbsp;</strong></div><div id="cmbGeo" style="display: inline;"></div>
+    </div>
+    <br/>
+    <table>
+        <tr>
+            <td>
+                <div style="display: inline;"><strong>Display:&nbsp;&nbsp;</strong></div><div id="cmbCat" style="display: inline;"></div>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                <div id="MET"></div>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                <div id="AOP" style="display: none;"></div>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+          <td>
+            <div id="COMPAREGEOGRAPHIES" style="display: none;"><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="chkCompareGeo"   name="CompareGeo"   data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _updateDisplay_Step1_CompareGeos" /><label for="chkCompareGeo" >&nbsp;<div id="COMPARELABEL" style="display: inline;">Show as % of:</div>&nbsp;<div id="cmbGeoCompare" style="display: inline;"></div></label>
+          </td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+      <tr>
+        <td colspan="2">
+          <div id="YEARS_FORECAST">
+            <div style="display: inline;"><strong>Year:     &nbsp;&nbsp;</strong></div><div id="cmbYear"       style="display: inline;"></div>
+          </div>
+        </td>
+        <td id="INCREMENT" rowspan="3">
+          &nbsp;<strong>Increment: </strong>
+          <button id="button" data-dojo-attach-event="onClick: _incrementDownAll" style="width: 21px; height:20px;"><</button>
+          <button id="button" data-dojo-attach-event="onClick: _incrementDown" style="width: 21px; height:20px;">-</button>
+          <select id="cmbInterval" data-dojo-type="dijit/form/Select">
+            <option value="1"                    > 1</option>
+            <option value="5" selected="selected"> 5</option>
+            <option value="10"                   >10</option>
+          </select>  
+          <button id="button" data-dojo-attach-event="onClick: _incrementUp" style="width: 21px; height:20px;">+</button>
+          <button id="button" data-dojo-attach-event="onClick: _incrementUpAll" style="width: 21px; height:20px;">></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="YEARS_CHANGE" style="display: none;">
+            <div style="display: inline;"><strong>From:</strong></div><div id="cmbYearFrom"   style="display: inline;"></div>
+            &nbsp;
+            <div style="display: inline;"><strong>To:</strong></div><div id="cmbYearTo"     style="display: inline;"></div>
+          </div>
+        </td>
+        <td>
+          <div id="YEARS_NEWVSOLD" style="display: none;">
+            <div style="display: inline;"><strong>Year:     &nbsp;&nbsp;</strong></div><div id="cmbYearNewOld" style="display: inline;"></div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <hr/>
+    <div id="LAYERLEGEND"  style="display: inline;" class="clickablepointer" data-dojo-attach-event="onClick: _openLegend"></div>
+    <table width="100%;">
+      <tr>
+          <td width="40%" align="left" valign="bottom">
+            <div id="LABELS" ><input type="checkbox" id="chkLabels"   name="Labels"   data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _checkLabels" /><label for="chkLabels" ><small>&nbsp;Show Labels                </small></label></div>
+            <div id="CENTERS"><input type="checkbox" id="chkCenters"  name="Centers"  data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _checkCenters"/><label for="chkCenters"><small>&nbsp;Show Wasatch Choice Centers</small></label></div>
+            <div id="SAPS"   ><input type="checkbox" id="chkSAPs"     name="SAPs"     data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _checkSAPs"   /><label for="chkSAPs"   ><small>&nbsp;Show Rail/BRT Station Areas</small></label></div>
+            <div id="REMM"   ><input type="checkbox" id="chkREMM"     name="REMM"     data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _checkREMM"   /><label for="chkREMM"   ><small>&nbsp;Show REMM Boundary         </small></label></div>
+          </td>
+          <td width="5%">
+              &nbsp;
+          </td>
+          <td><h3>Layer Transparency: <div id="OPACITY" style="display: inline"></div></h3>
+            <div id="HORIZSLIDER"></div></td>
+      </tr>
+    </table>
+
+    <!--
+    <div id="UTAHCOUNTYMASK" style="display: none;">
+      <br/>
+      <input type="checkbox" id="chkUtahCountyMask"   name="UtahCountyMask"   data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _checkUtahCountyMask"/><label for="chkUtahCountyMask"><small>&nbsp;Remove Utah County Mask</small></label>
+    </div>
+    -->
+    <hr/>
+
+    <div id="TAZLOOKUP" style="display: none;">
+      <table>
+        <tr>
+          <td>
+            <strong>Find TAZ by ID:</strong>
+          </td>
+          <td>
+            <input type="text" name="findtaz" value=""
+            data-dojo-type="dijit/form/TextBox"
+            data-dojo-props="trim:true, propercase:false" id="TAZInput"  style="width: 75px;" />
+          </td>
+          <td width="75px;">
+            <button id="tazfindbutton" data-dojo-attach-event="onClick: _findTAZ" style="width: 50px; height:20px;">Find</button>
+          </td>
+          <td align="right">
+            <div id="TAZIDLABELS" ><input type="checkbox" id="chkTAZIDLabels"   name="TAZIDLabels"   data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="onClick: _updateDisplay_Step1_CompareGeos" /><label for="chkTAZIDLabels" ><small>&nbsp;Include TAZ ID in labels</small></label></div>
+          </td>
+        </tr>
+      </table>
+      <hr/>
+    </div>
+    <div id="DETAILS" width="100%">
+        <table>
+            <tr>
+                <td>
+                    <div id="DETAILSTITLE" style="display: inline;" class="thicker"></div>
+                </td>
+                <td>
+                    <div id="OPENFEEDBACK" style="display: inline;" data-dojo-attach-event="onClick: _openFeedback" class="pointertext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Submit Feedback</b></div>
+                </td>
+            </tr>
+        </table>
+        <table width="100%;">
+            <tr>
+                <td width="100%;" align="right">
+                    
+                </td>
+            </tr>
+        </table> 
+        <table width="100%"><tr><td width="30%"><h2 id="NEWFORECASTTITLE">Forecast</h2></td><td width="70%" align="right">Display table values as: <div style="display: inline" id="cmbTableValues" data-dojo-type="dojox.form.Select"></div></td></tr></table>
+        <div id="DETAILSADVANCED">
+          <div id="TABLENEW"></div>
+          <br/>
+          <h2>Forecast - 2019 RTP</h2>
+          <div id="TABLEOLD"></div>
+          <br/>  
+          <div id="CHARTSE" width="100%"></div>
+          <div id="LEGENDSE"></div>  
+        </div>
+        <div id="DETAILSBASIC">
+          <div id="TABLENEWBASIC"></div>
+          <br/>
+          <div id="CHARTSEBASIC" ></div>
+          <div id="LEGENDSEBASIC"></div>  
+        </div>
+    </div>
+</div>

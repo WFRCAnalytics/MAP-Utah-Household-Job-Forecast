@@ -1,0 +1,74 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "HH_PROJECTIONS_by_TAZ_5902": {
+      "selected": true
+    },
+    "RTL_PROJECTIONS_by_TAZ_5185": {
+      "selected": true
+    },
+    "HJI_PROJECTIONS_by_TAZ_2423": {
+      "selected": true
+    },
+    "IND_PROJECTIONS_by_TAZ_9616": {
+      "selected": true
+    },
+    "OTHR_PROJECTIONS_by_TAZ_3624": {
+      "selected": true
+    },
+    "POP_PROJECTIONS_by_TAZ_6197": {
+      "selected": true
+    },
+    "TPCL_PROJECTIONS_by_TAZ_5940": {
+      "selected": true
+    },
+    "HH_PROJECTIONS_by_DISTMED_8514": {
+      "selected": true
+    },
+    "OTHR_PROJECTIONS_by_DISTMED_9869": {
+      "selected": true
+    },
+    "HJI_PROJECTIONS_by_DISTMED_823": {
+      "selected": true
+    },
+    "IND_PROJECTIONS_by_DISTMED_2031": {
+      "selected": true
+    },
+    "POP_PROJECTIONS_by_DISTMED_4326": {
+      "selected": true
+    },
+    "RTL_PROJECTIONS_by_DISTMED_6620": {
+      "selected": true
+    },
+    "TPCL_PROJECTIONS_by_DISTMED_7104": {
+      "selected": true
+    },
+    "HH_PROJECTIONS_by_CITYAREA_9069": {
+      "selected": true
+    },
+    "HJI_PROJECTIONS_by_CITYAREA_64": {
+      "selected": true
+    },
+    "IND_PROJECTIONS_by_CITYAREA_301": {
+      "selected": true
+    },
+    "OTHR_PROJECTIONS_by_CITYAREA_2758": {
+      "selected": true
+    },
+    "POP_PROJECTIONS_by_CITYAREA_4708": {
+      "selected": true
+    },
+    "RTL_PROJECTIONS_by_CITYAREA_6535": {
+      "selected": true
+    },
+    "TPCL_PROJECTIONS_by_CITYAREA_8225": {
+      "selected": true
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

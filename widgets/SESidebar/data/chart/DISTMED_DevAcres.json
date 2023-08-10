@@ -1,0 +1,938 @@
+[
+	{
+		"DMED_NAME":"Airport-Rose Park",
+		"DEVACRES":12721.5478515625
+	},
+	{
+		"DMED_NAME":"Altamont Area",
+		"DEVACRES":124536.265625
+	},
+	{
+		"DMED_NAME":"Amalga Area",
+		"DEVACRES":12419.9423828125
+	},
+	{
+		"DMED_NAME":"American Fork Canyon",
+		"DEVACRES":14956.10546875
+	},
+	{
+		"DMED_NAME":"Antelope Island",
+		"DEVACRES":21909.8671875
+	},
+	{
+		"DMED_NAME":"Bear Lake Area",
+		"DEVACRES":1231.7152099609375
+	},
+	{
+		"DMED_NAME":"Big Cottonwood Canyon",
+		"DEVACRES":5218.16650390625
+	},
+	{
+		"DMED_NAME":"Big Water Area",
+		"DEVACRES":82640.625
+	},
+	{
+		"DMED_NAME":"Brigham City Area - W of I-15",
+		"DEVACRES":10886.78515625
+	},
+	{
+		"DMED_NAME":"Brigham City, North Perry",
+		"DEVACRES":9922.916015625
+	},
+	{
+		"DMED_NAME":"Cedar City Area",
+		"DEVACRES":151552.09375
+	},
+	{
+		"DMED_NAME":"Cen",
+		"DEVACRES":127068.1171875
+	},
+	{
+		"DMED_NAME":"Cenral Uintah County",
+		"DEVACRES":209358.71875
+	},
+	{
+		"DMED_NAME":"Central-East Uintah County",
+		"DEVACRES":244942.765625
+	},
+	{
+		"DMED_NAME":"Central Beaver County",
+		"DEVACRES":154521.34375
+	},
+	{
+		"DMED_NAME":"Central Daggett County",
+		"DEVACRES":79098.0703125
+	},
+	{
+		"DMED_NAME":"Central Juab County",
+		"DEVACRES":394335.09375
+	},
+	{
+		"DMED_NAME":"Central Kane County",
+		"DEVACRES":704539.6875
+	},
+	{
+		"DMED_NAME":"Central Mountains",
+		"DEVACRES":36068.90234375
+	},
+	{
+		"DMED_NAME":"Central Tooele County",
+		"DEVACRES":927699.6875
+	},
+	{
+		"DMED_NAME":"Central Wayne County",
+		"DEVACRES":516053.6875
+	},
+	{
+		"DMED_NAME":"Clarkston Area",
+		"DEVACRES":32074.251953125
+	},
+	{
+		"DMED_NAME":"Clinton-W.Pt-Clearfield",
+		"DEVACRES":17447.88671875
+	},
+	{
+		"DMED_NAME":"County Area West of Logan",
+		"DEVACRES":15367.1767578125
+	},
+	{
+		"DMED_NAME":"Currant Creek",
+		"DEVACRES":198119.046875
+	},
+	{
+		"DMED_NAME":"CV - Central",
+		"DEVACRES":27522.68359375
+	},
+	{
+		"DMED_NAME":"CV - North",
+		"DEVACRES":24750.142578125
+	},
+	{
+		"DMED_NAME":"CV - South",
+		"DEVACRES":60505.75390625
+	},
+	{
+		"DMED_NAME":"DA - East Mountains",
+		"DEVACRES":9841.6103515625
+	},
+	{
+		"DMED_NAME":"DA - GSL",
+		"DEVACRES":24202.623046875
+	},
+	{
+		"DMED_NAME":"Daniel",
+		"DEVACRES":7643.03564453125
+	},
+	{
+		"DMED_NAME":"Daniels Summit",
+		"DEVACRES":33737.51953125
+	},
+	{
+		"DMED_NAME":"Deer Creek, State Parks",
+		"DEVACRES":16634.97265625
+	},
+	{
+		"DMED_NAME":"Deer Valley East",
+		"DEVACRES":4732.6025390625
+	},
+	{
+		"DMED_NAME":"Draper",
+		"DEVACRES":6830.18505859375
+	},
+	{
+		"DMED_NAME":"Duchesne Area",
+		"DEVACRES":72137.71875
+	},
+	{
+		"DMED_NAME":"Eas",
+		"DEVACRES":19892.451171875
+	},
+	{
+		"DMED_NAME":"East-Central Garfield County",
+		"DEVACRES":962083.25
+	},
+	{
+		"DMED_NAME":"East Central Juab County",
+		"DEVACRES":27390.498046875
+	},
+	{
+		"DMED_NAME":"East Garfield County",
+		"DEVACRES":653470.375
+	},
+	{
+		"DMED_NAME":"East Mountains",
+		"DEVACRES":295585.84375
+	},
+	{
+		"DMED_NAME":"East Sevier County",
+		"DEVACRES":583344.875
+	},
+	{
+		"DMED_NAME":"Eastern Beaver County",
+		"DEVACRES":413731.5625
+	},
+	{
+		"DMED_NAME":"Eastern Daggett County",
+		"DEVACRES":128536.6796875
+	},
+	{
+		"DMED_NAME":"Eastern Iron County",
+		"DEVACRES":265426.15625
+	},
+	{
+		"DMED_NAME":"Eastern Kane County",
+		"DEVACRES":646320.875
+	},
+	{
+		"DMED_NAME":"Eastern Mountains",
+		"DEVACRES":123224.90625
+	},
+	{
+		"DMED_NAME":"Eastern Wayne County",
+		"DEVACRES":470730.15625
+	},
+	{
+		"DMED_NAME":"Emigration Canyon, Northeast M",
+		"DEVACRES":14578.29296875
+	},
+	{
+		"DMED_NAME":"Ent",
+		"DEVACRES":207713.25
+	},
+	{
+		"DMED_NAME":"Ex-West Weber",
+		"DEVACRES":19769.2265625
+	},
+	{
+		"DMED_NAME":"Farmington-Centerville",
+		"DEVACRES":11793.833984375
+	},
+	{
+		"DMED_NAME":"Garden City Area",
+		"DEVACRES":24111.064453125
+	},
+	{
+		"DMED_NAME":"Grantsville Area",
+		"DEVACRES":67943.3046875
+	},
+	{
+		"DMED_NAME":"Great Salt Lake - Box Elder",
+		"DEVACRES":360642.875
+	},
+	{
+		"DMED_NAME":"Great Salt Lake - Tooele",
+		"DEVACRES":71214.984375
+	},
+	{
+		"DMED_NAME":"Green River Area",
+		"DEVACRES":26298.587890625
+	},
+	{
+		"DMED_NAME":"GV - Central",
+		"DEVACRES":30768.806640625
+	},
+	{
+		"DMED_NAME":"GV - Mosida",
+		"DEVACRES":10259.408203125
+	},
+	{
+		"DMED_NAME":"GV - South",
+		"DEVACRES":35054.56640625
+	},
+	{
+		"DMED_NAME":"HAFB area",
+		"DEVACRES":11172.3271484375
+	},
+	{
+		"DMED_NAME":"Heber East",
+		"DEVACRES":15856.2431640625
+	},
+	{
+		"DMED_NAME":"Heber West",
+		"DEVACRES":6962.5419921875
+	},
+	{
+		"DMED_NAME":"Hideout",
+		"DEVACRES":7515.6376953125
+	},
+	{
+		"DMED_NAME":"Highland Promontory",
+		"DEVACRES":12033.4970703125
+	},
+	{
+		"DMED_NAME":"Hobble Creek Canyon",
+		"DEVACRES":45185.55078125
+	},
+	{
+		"DMED_NAME":"Hooper-Roy-W.Haven",
+		"DEVACRES":28014.90625
+	},
+	{
+		"DMED_NAME":"Huntsville Area",
+		"DEVACRES":13698.6357421875
+	},
+	{
+		"DMED_NAME":"Huntsville Area (North)",
+		"DEVACRES":11195.376953125
+	},
+	{
+		"DMED_NAME":"Hyde Park Area",
+		"DEVACRES":9997.6533203125
+	},
+	{
+		"DMED_NAME":"Hyrum Area",
+		"DEVACRES":8067.94921875
+	},
+	{
+		"DMED_NAME":"I-15 to MVC, I-80 to 20",
+		"DEVACRES":11847.1884765625
+	},
+	{
+		"DMED_NAME":"Ivi",
+		"DEVACRES":23274.515625
+	},
+	{
+		"DMED_NAME":"Jordanelle West",
+		"DEVACRES":1997.89306640625
+	},
+	{
+		"DMED_NAME":"Kaysville-Syracuse",
+		"DEVACRES":15035.1982421875
+	},
+	{
+		"DMED_NAME":"Kimball Snyder",
+		"DEVACRES":7684.9287109375
+	},
+	{
+		"DMED_NAME":"Laketown Area",
+		"DEVACRES":27927.4765625
+	},
+	{
+		"DMED_NAME":"Layton-Ft.Heights",
+		"DEVACRES":13662.9189453125
+	},
+	{
+		"DMED_NAME":"Lee",
+		"DEVACRES":35597.14453125
+	},
+	{
+		"DMED_NAME":"Little Cottonwood Canyon",
+		"DEVACRES":7209.94921875
+	},
+	{
+		"DMED_NAME":"Logan Area",
+		"DEVACRES":10349.544921875
+	},
+	{
+		"DMED_NAME":"Mantua, East Mountains",
+		"DEVACRES":14082.2177734375
+	},
+	{
+		"DMED_NAME":"Mapleton Canyon",
+		"DEVACRES":909.4769897460938
+	},
+	{
+		"DMED_NAME":"Mendon Area",
+		"DEVACRES":20374.5625
+	},
+	{
+		"DMED_NAME":"Midvale, Cot, N.Sandy",
+		"DEVACRES":13322.4111328125
+	},
+	{
+		"DMED_NAME":"Midway",
+		"DEVACRES":7152.4287109375
+	},
+	{
+		"DMED_NAME":"Millcreek-Holladay",
+		"DEVACRES":13112.2578125
+	},
+	{
+		"DMED_NAME":"Millcreek Canyon",
+		"DEVACRES":4491.8623046875
+	},
+	{
+		"DMED_NAME":"Morgan City",
+		"DEVACRES":6256.1650390625
+	},
+	{
+		"DMED_NAME":"MVC-Magna-ATK",
+		"DEVACRES":14493.244140625
+	},
+	{
+		"DMED_NAME":"MVC to Tailings",
+		"DEVACRES":10106.9345703125
+	},
+	{
+		"DMED_NAME":"Myton Area",
+		"DEVACRES":80523.3515625
+	},
+	{
+		"DMED_NAME":"New",
+		"DEVACRES":37402.9375
+	},
+	{
+		"DMED_NAME":"Newton Area",
+		"DEVACRES":19213.615234375
+	},
+	{
+		"DMED_NAME":"Nor",
+		"DEVACRES":147659.796875
+	},
+	{
+		"DMED_NAME":"North-Central Rich County",
+		"DEVACRES":147440.765625
+	},
+	{
+		"DMED_NAME":"North-Central San Juan County",
+		"DEVACRES":868639.9375
+	},
+	{
+		"DMED_NAME":"North Central Box Elder County",
+		"DEVACRES":552952.5
+	},
+	{
+		"DMED_NAME":"North Central Millard County",
+		"DEVACRES":585711.8125
+	},
+	{
+		"DMED_NAME":"North Logan Area",
+		"DEVACRES":4292.7060546875
+	},
+	{
+		"DMED_NAME":"North of Brigham City",
+		"DEVACRES":10489.7607421875
+	},
+	{
+		"DMED_NAME":"North Ogden",
+		"DEVACRES":19928.20703125
+	},
+	{
+		"DMED_NAME":"North Summit",
+		"DEVACRES":205344.96875
+	},
+	{
+		"DMED_NAME":"Northeast-Central Juab County",
+		"DEVACRES":29338.734375
+	},
+	{
+		"DMED_NAME":"Northeast Box Elder County",
+		"DEVACRES":82214.3515625
+	},
+	{
+		"DMED_NAME":"Northeast Emery County",
+		"DEVACRES":928153.0625
+	},
+	{
+		"DMED_NAME":"Northeast Iron County",
+		"DEVACRES":219226.03125
+	},
+	{
+		"DMED_NAME":"Northeast Juab County",
+		"DEVACRES":83319.7734375
+	},
+	{
+		"DMED_NAME":"Northeast Millard County",
+		"DEVACRES":223125.859375
+	},
+	{
+		"DMED_NAME":"Northeast Mountains",
+		"DEVACRES":646585.0625
+	},
+	{
+		"DMED_NAME":"Northeast Piute County",
+		"DEVACRES":8502.4580078125
+	},
+	{
+		"DMED_NAME":"Northeast Sanpete County",
+		"DEVACRES":205703.25
+	},
+	{
+		"DMED_NAME":"Northeast Tooele County",
+		"DEVACRES":24793.443359375
+	},
+	{
+		"DMED_NAME":"Northeastern Carbon County",
+		"DEVACRES":202928.109375
+	},
+	{
+		"DMED_NAME":"Northern Grand County",
+		"DEVACRES":725005.4375
+	},
+	{
+		"DMED_NAME":"Northern San Juan County",
+		"DEVACRES":555955.375
+	},
+	{
+		"DMED_NAME":"Northwest Carbon County",
+		"DEVACRES":53557.8828125
+	},
+	{
+		"DMED_NAME":"Northwest Central Iron County",
+		"DEVACRES":370469.90625
+	},
+	{
+		"DMED_NAME":"Northwest Duschene County",
+		"DEVACRES":358748.3125
+	},
+	{
+		"DMED_NAME":"Northwest Emery County",
+		"DEVACRES":45831.6328125
+	},
+	{
+		"DMED_NAME":"Northwest Garfield County",
+		"DEVACRES":310989.15625
+	},
+	{
+		"DMED_NAME":"Northwest Kane County",
+		"DEVACRES":217695.296875
+	},
+	{
+		"DMED_NAME":"Northwest Millard County",
+		"DEVACRES":1166083.5
+	},
+	{
+		"DMED_NAME":"Northwest Morgan County",
+		"DEVACRES":40781.9609375
+	},
+	{
+		"DMED_NAME":"Northwest Mountains",
+		"DEVACRES":221660.1875
+	},
+	{
+		"DMED_NAME":"Northwest Piute County",
+		"DEVACRES":40487.42578125
+	},
+	{
+		"DMED_NAME":"Northwest San Juan County",
+		"DEVACRES":543602.625
+	},
+	{
+		"DMED_NAME":"Northwest Sanpete County",
+		"DEVACRES":95851.6875
+	},
+	{
+		"DMED_NAME":"Northwest Sevier County",
+		"DEVACRES":77370.9453125
+	},
+	{
+		"DMED_NAME":"Northwest Uintah County",
+		"DEVACRES":234052.6875
+	},
+	{
+		"DMED_NAME":"Northwest Wayne County",
+		"DEVACRES":222882.609375
+	},
+	{
+		"DMED_NAME":"NW Quad-International",
+		"DEVACRES":11090.23046875
+	},
+	{
+		"DMED_NAME":"NW Weber",
+		"DEVACRES":22981.775390625
+	},
+	{
+		"DMED_NAME":"Ogden Canyon, Northeast Mounta",
+		"DEVACRES":1197.3409423828125
+	},
+	{
+		"DMED_NAME":"Ogden Core",
+		"DEVACRES":8291.89453125
+	},
+	{
+		"DMED_NAME":"Paradise Area",
+		"DEVACRES":10966.1728515625
+	},
+	{
+		"DMED_NAME":"Park City",
+		"DEVACRES":7177.96142578125
+	},
+	{
+		"DMED_NAME":"Payson Canyon - Nebo Loop",
+		"DEVACRES":19823.419921875
+	},
+	{
+		"DMED_NAME":"Providence, Millville, Nibley",
+		"DEVACRES":10779.794921875
+	},
+	{
+		"DMED_NAME":"Provo Canyon",
+		"DEVACRES":12786.60546875
+	},
+	{
+		"DMED_NAME":"Randolph Area",
+		"DEVACRES":72461.3359375
+	},
+	{
+		"DMED_NAME":"Richmond Area",
+		"DEVACRES":22613.69140625
+	},
+	{
+		"DMED_NAME":"Riv, I-15 to MVC",
+		"DEVACRES":19938.076171875
+	},
+	{
+		"DMED_NAME":"Roosevelt Area",
+		"DEVACRES":127490.6328125
+	},
+	{
+		"DMED_NAME":"Round Valley",
+		"DEVACRES":16603.634765625
+	},
+	{
+		"DMED_NAME":"S.Flat, U-111@62nd",
+		"DEVACRES":6711.49755859375
+	},
+	{
+		"DMED_NAME":"S.Og-Riverdale-Uintah",
+		"DEVACRES":10716.216796875
+	},
+	{
+		"DMED_NAME":"San",
+		"DEVACRES":37023.28125
+	},
+	{
+		"DMED_NAME":"Sandy",
+		"DEVACRES":12000.0419921875
+	},
+	{
+		"DMED_NAME":"Silver Creek",
+		"DEVACRES":7664.65380859375
+	},
+	{
+		"DMED_NAME":"SJ, I-15 to MVC",
+		"DEVACRES":15030.1201171875
+	},
+	{
+		"DMED_NAME":"SL - GSL",
+		"DEVACRES":28385.30078125
+	},
+	{
+		"DMED_NAME":"SL - West Mountains",
+		"DEVACRES":13552.716796875
+	},
+	{
+		"DMED_NAME":"SL CBD",
+		"DEVACRES":1667.376953125
+	},
+	{
+		"DMED_NAME":"SLC east of I-15",
+		"DEVACRES":14285.5908203125
+	},
+	{
+		"DMED_NAME":"Smithfield Area",
+		"DEVACRES":15163.1484375
+	},
+	{
+		"DMED_NAME":"Sou",
+		"DEVACRES":380920.34375
+	},
+	{
+		"DMED_NAME":"South-Central Rich County",
+		"DEVACRES":194219.609375
+	},
+	{
+		"DMED_NAME":"South Central Mountains",
+		"DEVACRES":16285.388671875
+	},
+	{
+		"DMED_NAME":"South Perry, Willard",
+		"DEVACRES":8108.310546875
+	},
+	{
+		"DMED_NAME":"South Summit",
+		"DEVACRES":41182.734375
+	},
+	{
+		"DMED_NAME":"Southeast Box Elder County",
+		"DEVACRES":121529.1328125
+	},
+	{
+		"DMED_NAME":"Southeast Carbon County",
+		"DEVACRES":93307.3125
+	},
+	{
+		"DMED_NAME":"Southeast Grand County",
+		"DEVACRES":297542.375
+	},
+	{
+		"DMED_NAME":"Southeast Juab County",
+		"DEVACRES":264562.625
+	},
+	{
+		"DMED_NAME":"Southeast Millard County",
+		"DEVACRES":612332.8125
+	},
+	{
+		"DMED_NAME":"Southeast Piute County",
+		"DEVACRES":220019.265625
+	},
+	{
+		"DMED_NAME":"Southeast San Juan County",
+		"DEVACRES":897595.375
+	},
+	{
+		"DMED_NAME":"Southeast Sanpete County",
+		"DEVACRES":264989.5
+	},
+	{
+		"DMED_NAME":"Southeast Tooele County",
+		"DEVACRES":372175.65625
+	},
+	{
+		"DMED_NAME":"Southeast Uintah County",
+		"DEVACRES":578246.3125
+	},
+	{
+		"DMED_NAME":"Southern Emery County",
+		"DEVACRES":999065.375
+	},
+	{
+		"DMED_NAME":"Southern Mountains",
+		"DEVACRES":421290.40625
+	},
+	{
+		"DMED_NAME":"Southwest-Central Garfield Cou",
+		"DEVACRES":172609.390625
+	},
+	{
+		"DMED_NAME":"Southwest Carbon County",
+		"DEVACRES":193444.015625
+	},
+	{
+		"DMED_NAME":"Southwest Central Iron County",
+		"DEVACRES":133357.40625
+	},
+	{
+		"DMED_NAME":"Southwest Emery County",
+		"DEVACRES":25162.728515625
+	},
+	{
+		"DMED_NAME":"Southwest Grand County",
+		"DEVACRES":631435.25
+	},
+	{
+		"DMED_NAME":"Southwest Kane County",
+		"DEVACRES":283903.5625
+	},
+	{
+		"DMED_NAME":"Southwest Millard County",
+		"DEVACRES":1279935.375
+	},
+	{
+		"DMED_NAME":"Southwest Morgan County",
+		"DEVACRES":48778.04296875
+	},
+	{
+		"DMED_NAME":"Southwest Piute County",
+		"DEVACRES":52707.23828125
+	},
+	{
+		"DMED_NAME":"Southwest San Juan County",
+		"DEVACRES":1145122.0
+	},
+	{
+		"DMED_NAME":"Southwest Sanpete County",
+		"DEVACRES":183087.578125
+	},
+	{
+		"DMED_NAME":"Southwest Sevier County",
+		"DEVACRES":213504.578125
+	},
+	{
+		"DMED_NAME":"Southwest Uintah County",
+		"DEVACRES":505267.0
+	},
+	{
+		"DMED_NAME":"Southwest Wayne County",
+		"DEVACRES":93485.203125
+	},
+	{
+		"DMED_NAME":"Spanish Fork Canyon",
+		"DEVACRES":202438.203125
+	},
+	{
+		"DMED_NAME":"SSL-Murray",
+		"DEVACRES":8309.755859375
+	},
+	{
+		"DMED_NAME":"Strawberry",
+		"DEVACRES":131390.84375
+	},
+	{
+		"DMED_NAME":"Sum Jer Pine",
+		"DEVACRES":7758.6708984375
+	},
+	{
+		"DMED_NAME":"Timberlakes",
+		"DEVACRES":27477.384765625
+	},
+	{
+		"DMED_NAME":"Tooele Area",
+		"DEVACRES":56875.0703125
+	},
+	{
+		"DMED_NAME":"Trenton, Cornish, Lewiston Are",
+		"DEVACRES":29818.21484375
+	},
+	{
+		"DMED_NAME":"Uintas",
+		"DEVACRES":554347.125
+	},
+	{
+		"DMED_NAME":"Utah County Central Mountains",
+		"DEVACRES":25710.27734375
+	},
+	{
+		"DMED_NAME":"Utah County West Mountains",
+		"DEVACRES":78404.1953125
+	},
+	{
+		"DMED_NAME":"UV - Deep South",
+		"DEVACRES":27920.48046875
+	},
+	{
+		"DMED_NAME":"UV - Downtown Provo",
+		"DEVACRES":5845.275390625
+	},
+	{
+		"DMED_NAME":"UV - Jordan River West",
+		"DEVACRES":21541.2109375
+	},
+	{
+		"DMED_NAME":"UV - North Central",
+		"DEVACRES":24445.580078125
+	},
+	{
+		"DMED_NAME":"UV - Northeast",
+		"DEVACRES":11771.75
+	},
+	{
+		"DMED_NAME":"UV - SF River East",
+		"DEVACRES":33213.52734375
+	},
+	{
+		"DMED_NAME":"UV - SF River West",
+		"DEVACRES":41094.03515625
+	},
+	{
+		"DMED_NAME":"UV - Thanksgiving Point",
+		"DEVACRES":8699.5185546875
+	},
+	{
+		"DMED_NAME":"UV - The Grove",
+		"DEVACRES":11946.826171875
+	},
+	{
+		"DMED_NAME":"UV - The Meadows",
+		"DEVACRES":14955.353515625
+	},
+	{
+		"DMED_NAME":"Vernal Area",
+		"DEVACRES":96996.9609375
+	},
+	{
+		"DMED_NAME":"Victory Ranch",
+		"DEVACRES":12933.5107421875
+	},
+	{
+		"DMED_NAME":"W.Daybreak, Herriman",
+		"DEVACRES":27288.244140625
+	},
+	{
+		"DMED_NAME":"Was",
+		"DEVACRES":32459.3359375
+	},
+	{
+		"DMED_NAME":"WE - GSL",
+		"DEVACRES":20486.142578125
+	},
+	{
+		"DMED_NAME":"WE - Southeast Mountains",
+		"DEVACRES":4939.6044921875
+	},
+	{
+		"DMED_NAME":"Wellsville Area",
+		"DEVACRES":13607.81640625
+	},
+	{
+		"DMED_NAME":"Wendover",
+		"DEVACRES":8010.87841796875
+	},
+	{
+		"DMED_NAME":"Wes",
+		"DEVACRES":45640.60546875
+	},
+	{
+		"DMED_NAME":"West-Central Emery County",
+		"DEVACRES":78749.9375
+	},
+	{
+		"DMED_NAME":"West-Central Uintah County",
+		"DEVACRES":124702.7265625
+	},
+	{
+		"DMED_NAME":"West Garfield County",
+		"DEVACRES":362764.625
+	},
+	{
+		"DMED_NAME":"West Mountains",
+		"DEVACRES":9072.732421875
+	},
+	{
+		"DMED_NAME":"West Uintah County",
+		"DEVACRES":110605.4765625
+	},
+	{
+		"DMED_NAME":"Western Beaver County",
+		"DEVACRES":838710.625
+	},
+	{
+		"DMED_NAME":"Western Box Elder County",
+		"DEVACRES":2102390.25
+	},
+	{
+		"DMED_NAME":"Western Central Iron County",
+		"DEVACRES":205901.765625
+	},
+	{
+		"DMED_NAME":"Western Daggett County",
+		"DEVACRES":121414.5546875
+	},
+	{
+		"DMED_NAME":"Western Iron County",
+		"DEVACRES":492336.0625
+	},
+	{
+		"DMED_NAME":"Western Juab County",
+		"DEVACRES":1060024.25
+	},
+	{
+		"DMED_NAME":"Western Tooele County",
+		"DEVACRES":2456836.5
+	},
+	{
+		"DMED_NAME":"WJ, I-15 to MVC",
+		"DEVACRES":15504.13671875
+	},
+	{
+		"DMED_NAME":"WJ, WB, west of MVC",
+		"DEVACRES":9797.921875
+	},
+	{
+		"DMED_NAME":"Woodland",
+		"DEVACRES":13133.7958984375
+	},
+	{
+		"DMED_NAME":"Woodruff Area",
+		"DEVACRES":127490.6796875
+	},
+	{
+		"DMED_NAME":"WVC-Taylors",
+		"DEVACRES":26333.541015625
+	},
+	{
+		"DMED_NAME":"WX, Bountiful, NSL",
+		"DEVACRES":19191.576171875
+	}
+]

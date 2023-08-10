@@ -1,0 +1,346 @@
+[
+	{
+		"DLRG_NAME":"Beaver County",
+		"DEVACRES":1406963.5
+	},
+	{
+		"DLRG_NAME":"Box Elder - WFRC",
+		"DEVACRES":39407.7734375
+	},
+	{
+		"DLRG_NAME":"Cedar Valley",
+		"DEVACRES":112778.578125
+	},
+	{
+		"DLRG_NAME":"Central Box Elder County",
+		"DEVACRES":913595.375
+	},
+	{
+		"DLRG_NAME":"Central DMPO",
+		"DEVACRES":80212.0859375
+	},
+	{
+		"DLRG_NAME":"Central Rich County",
+		"DEVACRES":341660.375
+	},
+	{
+		"DLRG_NAME":"DA - East Mountains",
+		"DEVACRES":9841.6103515625
+	},
+	{
+		"DLRG_NAME":"DA - GSL",
+		"DEVACRES":46112.48828125
+	},
+	{
+		"DLRG_NAME":"Daggett County",
+		"DEVACRES":329049.3125
+	},
+	{
+		"DLRG_NAME":"Davis North",
+		"DEVACRES":57318.33203125
+	},
+	{
+		"DLRG_NAME":"Davis South",
+		"DEVACRES":30985.41015625
+	},
+	{
+		"DLRG_NAME":"East Box Elder County not WFRC",
+		"DEVACRES":221427.1875
+	},
+	{
+		"DLRG_NAME":"East Garfield County",
+		"DEVACRES":1615553.625
+	},
+	{
+		"DLRG_NAME":"East Iron County",
+		"DEVACRES":636204.3125
+	},
+	{
+		"DLRG_NAME":"East Juab County",
+		"DEVACRES":375272.90625
+	},
+	{
+		"DLRG_NAME":"East Kane County",
+		"DEVACRES":1433501.25
+	},
+	{
+		"DLRG_NAME":"East Millard County",
+		"DEVACRES":1421170.5
+	},
+	{
+		"DLRG_NAME":"East Mountains",
+		"DEVACRES":239301.828125
+	},
+	{
+		"DLRG_NAME":"East Piute County",
+		"DEVACRES":228521.71875
+	},
+	{
+		"DLRG_NAME":"East Rich County",
+		"DEVACRES":199952.015625
+	},
+	{
+		"DLRG_NAME":"East Sevier County",
+		"DEVACRES":583344.875
+	},
+	{
+		"DLRG_NAME":"East Wayne County",
+		"DEVACRES":986783.8125
+	},
+	{
+		"DLRG_NAME":"Eastern DMPO",
+		"DEVACRES":109277.046875
+	},
+	{
+		"DLRG_NAME":"Eastern Summit",
+		"DEVACRES":800874.875
+	},
+	{
+		"DLRG_NAME":"Eastern Tooele County",
+		"DEVACRES":593002.4375
+	},
+	{
+		"DLRG_NAME":"Eastern Washington County",
+		"DEVACRES":253174.46875
+	},
+	{
+		"DLRG_NAME":"Goshen Valley",
+		"DEVACRES":76082.78125
+	},
+	{
+		"DLRG_NAME":"Heber Valley",
+		"DEVACRES":54217.8828125
+	},
+	{
+		"DLRG_NAME":"Logan Area",
+		"DEVACRES":14642.251953125
+	},
+	{
+		"DLRG_NAME":"Morgan County",
+		"DEVACRES":219041.078125
+	},
+	{
+		"DLRG_NAME":"Mountains",
+		"DEVACRES":407359.78125
+	},
+	{
+		"DLRG_NAME":"North Cache County",
+		"DEVACRES":84506.15625
+	},
+	{
+		"DLRG_NAME":"North Carbon County",
+		"DEVACRES":256485.984375
+	},
+	{
+		"DLRG_NAME":"North Grand County",
+		"DEVACRES":725005.4375
+	},
+	{
+		"DLRG_NAME":"North of Logan Area",
+		"DEVACRES":25160.80078125
+	},
+	{
+		"DLRG_NAME":"North San Juan County",
+		"DEVACRES":1968198.0
+	},
+	{
+		"DLRG_NAME":"North Sanpete County",
+		"DEVACRES":301554.9375
+	},
+	{
+		"DLRG_NAME":"Northeast Duschene County",
+		"DEVACRES":577382.9375
+	},
+	{
+		"DLRG_NAME":"Northeast Uintah County",
+		"DEVACRES":418226.03125
+	},
+	{
+		"DLRG_NAME":"Northwest Duchesne County",
+		"DEVACRES":358748.3125
+	},
+	{
+		"DLRG_NAME":"Northwest Emery County",
+		"DEVACRES":371404.46875
+	},
+	{
+		"DLRG_NAME":"Northwest Rich County",
+		"DEVACRES":53270.25390625
+	},
+	{
+		"DLRG_NAME":"Northwest Uintah County",
+		"DEVACRES":469360.875
+	},
+	{
+		"DLRG_NAME":"Northwest Washington County",
+		"DEVACRES":599837.25
+	},
+	{
+		"DLRG_NAME":"Ogden Valley",
+		"DEVACRES":126319.6796875
+	},
+	{
+		"DLRG_NAME":"Resorts",
+		"DEVACRES":40313.44140625
+	},
+	{
+		"DLRG_NAME":"SL CBD",
+		"DEVACRES":1667.376953125
+	},
+	{
+		"DLRG_NAME":"SL North Central",
+		"DEVACRES":50902.27734375
+	},
+	{
+		"DLRG_NAME":"SL Northeast",
+		"DEVACRES":50285.8984375
+	},
+	{
+		"DLRG_NAME":"SL Northwest",
+		"DEVACRES":64075.7109375
+	},
+	{
+		"DLRG_NAME":"SL South Central",
+		"DEVACRES":50472.33203125
+	},
+	{
+		"DLRG_NAME":"SL Southeast",
+		"DEVACRES":32152.638671875
+	},
+	{
+		"DLRG_NAME":"SL Southwest",
+		"DEVACRES":57350.37890625
+	},
+	{
+		"DLRG_NAME":"SL Wasatch Canyons",
+		"DEVACRES":16919.978515625
+	},
+	{
+		"DLRG_NAME":"Snyderville Basin",
+		"DEVACRES":42319.7109375
+	},
+	{
+		"DLRG_NAME":"South Cache County",
+		"DEVACRES":27251.560546875
+	},
+	{
+		"DLRG_NAME":"South Carbon County",
+		"DEVACRES":286751.34375
+	},
+	{
+		"DLRG_NAME":"South Grand County",
+		"DEVACRES":928977.625
+	},
+	{
+		"DLRG_NAME":"South of Logan - Wellsville Ar",
+		"DEVACRES":32455.560546875
+	},
+	{
+		"DLRG_NAME":"South San Juan County",
+		"DEVACRES":2042717.375
+	},
+	{
+		"DLRG_NAME":"South Sanpete County",
+		"DEVACRES":448077.09375
+	},
+	{
+		"DLRG_NAME":"South Uintah County",
+		"DEVACRES":1537814.875
+	},
+	{
+		"DLRG_NAME":"Southeast Duschene County",
+		"DEVACRES":573951.5
+	},
+	{
+		"DLRG_NAME":"Southeast Emery County",
+		"DEVACRES":1953517.125
+	},
+	{
+		"DLRG_NAME":"Utah County Central Mountains",
+		"DEVACRES":25710.27734375
+	},
+	{
+		"DLRG_NAME":"Utah County East Mountains",
+		"DEVACRES":296099.34375
+	},
+	{
+		"DLRG_NAME":"Utah County West Mountains",
+		"DEVACRES":78404.1953125
+	},
+	{
+		"DLRG_NAME":"Utah Valley - Central",
+		"DEVACRES":30290.85546875
+	},
+	{
+		"DLRG_NAME":"Utah Valley - North",
+		"DEVACRES":68914.6640625
+	},
+	{
+		"DLRG_NAME":"Utah Valley - South",
+		"DEVACRES":102228.0390625
+	},
+	{
+		"DLRG_NAME":"WE - East Mountains",
+		"DEVACRES":2535.461181640625
+	},
+	{
+		"DLRG_NAME":"WE - GSL",
+		"DEVACRES":20486.142578125
+	},
+	{
+		"DLRG_NAME":"Weber North and West",
+		"DEVACRES":90694.1171875
+	},
+	{
+		"DLRG_NAME":"Weber Ogden Area",
+		"DEVACRES":19008.111328125
+	},
+	{
+		"DLRG_NAME":"West Box Elder County",
+		"DEVACRES":2102390.25
+	},
+	{
+		"DLRG_NAME":"West Cache County",
+		"DEVACRES":67375.296875
+	},
+	{
+		"DLRG_NAME":"West Garfield County",
+		"DEVACRES":846363.125
+	},
+	{
+		"DLRG_NAME":"West Iron County",
+		"DEVACRES":1202065.125
+	},
+	{
+		"DLRG_NAME":"West Juab County",
+		"DEVACRES":1483698.125
+	},
+	{
+		"DLRG_NAME":"West Kane County",
+		"DEVACRES":501598.84375
+	},
+	{
+		"DLRG_NAME":"West Millard County",
+		"DEVACRES":2446018.75
+	},
+	{
+		"DLRG_NAME":"West Piute County",
+		"DEVACRES":93194.6640625
+	},
+	{
+		"DLRG_NAME":"West Sevier County",
+		"DEVACRES":290875.53125
+	},
+	{
+		"DLRG_NAME":"West Wayne County",
+		"DEVACRES":316367.8125
+	},
+	{
+		"DLRG_NAME":"Western DMPO",
+		"DEVACRES":52150.95703125
+	},
+	{
+		"DLRG_NAME":"Western Tooele County",
+		"DEVACRES":3392547.0
+	}
+]
