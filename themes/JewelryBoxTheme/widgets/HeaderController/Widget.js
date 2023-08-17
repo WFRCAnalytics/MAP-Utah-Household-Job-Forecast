@@ -14,8 +14,8 @@
 // limitations under the License.
 ///////////////////////////////////////////////////////////////////////////
 
-var sViewAdvanced = "<p style=\"color:white\">View Advanced Version</p>";
-var sViewBasic = "<p style=\"color:white\">View Basic Version</p>";
+// var sViewAdvanced = "<p style=\"color:white\">View Advanced Version</p>";
+// var sViewBasic = "<p style=\"color:white\">View Basic Version</p>";
 
 define([
     'dojo/_base/declare',
@@ -68,22 +68,22 @@ define([
       moveTopOnActive: false,
       
       //Begin Added by BH 2020-05-28
-      _advanced: function() {
-        console.log('_advanced');
+      // _advanced: function() {
+      //   console.log('_advanced');
         
-        if (dom.byId("advanced").innerHTML==sViewAdvanced) {
-          this.publishData({
-            message: "TurnOnAdvanced"
-          });
-          dom.byId("advanced").innerHTML = sViewBasic;
-        } else if(dom.byId("advanced").innerHTML==sViewBasic) {
-          this.publishData({
-            message: "TurnOnBasic"
-          });
-          dom.byId("advanced").innerHTML = sViewAdvanced;
-        }
+      //   if (dom.byId("advanced").innerHTML==sViewAdvanced) {
+      //     this.publishData({
+      //       message: "TurnOnAdvanced"
+      //     });
+      //     dom.byId("advanced").innerHTML = sViewBasic;
+      //   } else if(dom.byId("advanced").innerHTML==sViewBasic) {
+      //     this.publishData({
+      //       message: "TurnOnBasic"
+      //     });
+      //     dom.byId("advanced").innerHTML = sViewAdvanced;
+      //   }
 
-      },
+      // },
       //End Added by BH 2020-05-28
 
       postMixInProperties: function() {
@@ -150,7 +150,7 @@ define([
         setTimeout(lang.hitch(this, this.resize), 100);
                 
         //ADDED BY BH - 2020-05-28
-        dom.byId("advanced").innerHTML = sViewAdvanced;
+        // dom.byId("advanced").innerHTML = sViewAdvanced;
       },
 
       onAction: function(action, data) {

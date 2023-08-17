@@ -2,29 +2,32 @@
   "theme": {
     "name": "JewelryBoxTheme",
     "styles": [
+      "yellow",
       "cyan",
       "red",
       "default",
-      "green",
-      "black",
       "purple",
-      "blue",
-      "yellow"
+      "black",
+      "green",
+      "blue"
     ],
     "version": "2.20",
     "sharedTheme": {
       "isPortalSupport": true,
       "useHeader": false,
       "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#a52a2a"
     }
   },
   "portalUrl": "https://wfrc.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Household and Job Forecast Viewer (2023 - 2050 RTP)",
-  "subtitle": "",
+  "title": "Utah Household and Job Forecast Viewer",
+  "subtitle": "hosted by: Wasatch Front Regional Council",
   "keepAppState": true,
-  "logo": "images/logo.png",
+  "logo": "images/utah_unified_plan_logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {
@@ -263,7 +266,7 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "d3d79bce8d474c00ad82ebd7a8b53e03",
+    "itemId": "dca3a91840314336b3f914fc4a2c898a",
     "mapOptions": {
       "extent": {
         "xmin": -12524319.893802177,
@@ -295,20 +298,11 @@
     },
     "widgets": [
       {
-        "name": "Feedback",
-        "version": "2.20",
-        "uri": "widgets/Feedback/Widget",
-        "index": 2,
-        "id": "widgets_Feedback_Widget_37",
-        "IsController": false,
-        "icon": "/webappbuilder/apps/2/widgets/Feedback/images/icon.png?wab_dv=2.26"
-      },
-      {
         "name": "About",
         "version": "2.20",
         "uri": "widgets/About/Widget",
         "config": "configs/About/config_widgets_About_Widget_38.json",
-        "index": 4,
+        "index": 2,
         "id": "widgets_About_Widget_38",
         "icon": "/webappbuilder/apps/2/widgets/About/images/icon.png?wab_dv=2.26"
       }

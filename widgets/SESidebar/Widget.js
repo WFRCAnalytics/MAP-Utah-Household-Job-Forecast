@@ -4,14 +4,16 @@
 sMode              = "BASIC";
 sCityAreas         = 'AEMP PROJECTIONS by CITYAREA'; // layer for outline over TAZ display
 sCityAreasOutline  = 'AEMP PROJECTIONS by CITYAREA-Copy'; // layer for outline over TAZ display
-sOtherAreas        = 'AEMP PROJECTIONS by OTHERAREA'; // layer for outline over TAZ display
-sOtherAreasOutline = 'AEMP PROJECTIONS by OTHERAREA-Copy'; // layer for outline over TAZ display
+// sOtherAreas        = 'AEMP PROJECTIONS by OTHERAREA'; // layer for outline over TAZ display
+// sOtherAreasOutline = 'AEMP PROJECTIONS by OTHERAREA-Copy'; // layer for outline over TAZ display
 sDistMed           = 'AEMP PROJECTIONS by DISTMED'; // layer for outline over TAZ display
 sDistMedOutline    = 'AEMP PROJECTIONS by DISTMED-Copy'; // layer for outline over TAZ display
+sDistLrg           = 'AEMP PROJECTIONS by DISTLRG'; // layer for outline over TAZ display
+sDistLrgOutline    = 'AEMP PROJECTIONS by DISTLRG-Copy'; // layer for outline over TAZ display
 sCounty            = 'AEMP PROJECTIONS by COUNTY'; // layer for outline over TAZ display
 sCountyOutline     = 'AEMP PROJECTIONS by COUNTY-Copy'; // layer for outline over TAZ display
-sCenter            = 'AEMP PROJECTIONS by CENTER'; // layer for outline over TAZ display
-sCenterOutline     = 'AEMP PROJECTIONS by CENTER-Copy'; // layer for outline over TAZ display
+// sCenter            = 'AEMP PROJECTIONS by CENTER'; // layer for outline over TAZ display
+// sCenterOutline     = 'AEMP PROJECTIONS by CENTER-Copy'; // layer for outline over TAZ display
 sMasks             = 'Masks Dissolve';
 sREMMBoundary      = 'REMMBoundary';
 sCenters           = 'Wasatch Choice 2050 Centers (Vision Map) - WC2050Centers';
@@ -25,12 +27,13 @@ var WIDGETPOOLID_LEGEND = 4;
 var curTab = "FORECAST";  // Options: FORECAST, CHANGE, NEWVSOLD
  
 dGeo = [ 
-  { label: "Traffic Analysis Zones", value: "TAZ"      , defaultLineWidth: 0.4, idfieldname: "TAZID"    , idfieldtype: "number", chartfileprefix: "TAZ"      , charttitletext: "TAZ "            , legendtitletext: "TAZ"     , roundchartvalues:1, minScaleForLabels: 87804  , compareGeos:[{value:"CITYAREA",label:"City Area"},{value:"DISTMED",label:"Medium District"},{value:"COUNTY",label:"County"},{value:"OTHERAREA",label:"Other Area"},{value:"REGION",label:"Region"}]},
-  { label: "City Areas"            , value: "CITYAREA" , defaultLineWidth: 1.5, idfieldname: "CityArea" , idfieldtype: "string", chartfileprefix: "CityArea" , charttitletext: ""                , legendtitletext: "City"    , roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}                                       ,{value:"REGION",label:"Region"}]},
-  { label: "Medium Districts"      , value: "DISTMED"  , defaultLineWidth: 1.5, idfieldname: "DISTMED"  , idfieldtype: "number", chartfileprefix: "DISTMED"  , charttitletext: "Medium District ", legendtitletext: "District", roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}                                       ,{value:"REGION",label:"Region"}]},
-  { label: "Counties"              , value: "COUNTY"   , defaultLineWidth: 2.5, idfieldname: "CO_NAME"  , idfieldtype: "string", chartfileprefix: "CO_NAME"  , charttitletext: ""                , legendtitletext: "County"  , roundchartvalues:1, minScaleForLabels: 2000000, compareGeos:[                                                                                                                                                      {value:"REGION",label:"Region"}]},
-  { label: "Wasatch Choice Centers", value: "CENTER"   , defaultLineWidth: 5.0, idfieldname: "CenterName", idfieldtype: "string", chartfileprefix: "CenterName", charttitletext: ""                , legendtitletext: "Center"    , roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}                                       ,{value:"REGION",label:"Region"}]},
-  { label: "Other Areas"           , value: "OTHERAREA", defaultLineWidth: 5.0, idfieldname: "OtherArea", idfieldtype: "string", chartfileprefix: "OtherArea", charttitletext: ""                , legendtitletext: "Area"    , roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}                                       ,{value:"REGION",label:"Region"}]}
+  { label: "Traffic Analysis Zones", value: "TAZ"      , defaultLineWidth: 0.4, idfieldname: "CO_TAZID"    , idfieldtype: "number", chartfileprefix: "TAZ"      , charttitletext: "COTAZID "            , legendtitletext: "TAZ"     , roundchartvalues:1, minScaleForLabels: 87804  , compareGeos:[{value:"CITYAREA",label:"City Area"},{value:"DISTMED",label:"Medium District"},{value:"COUNTY",label:"County"},{value:"REGION",label:"Region"}]},
+  { label: "City Areas"            , value: "CITYAREA" , defaultLineWidth: 1.5, idfieldname: "CITY_NAME" , idfieldtype: "string", chartfileprefix: "CITY_NAME" , charttitletext: ""                , legendtitletext: "City"    , roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"} ,{value:"REGION",label:"Region"}]},
+  { label: "Medium Districts"      , value: "DISTMED"  , defaultLineWidth: 1.5, idfieldname: "DMED_NAME"  , idfieldtype: "string", chartfileprefix: "DMED_NAME"  , charttitletext: "", legendtitletext: "District", roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"} ,{value:"REGION",label:"Region"}]},
+  { label: "Large Districts"       , value: "DISTLRG"  , defaultLineWidth: 1.5, idfieldname: "DLRG_NAME"  , idfieldtype: "string", chartfileprefix: "DLRG_NAME"  , charttitletext: "", legendtitletext: "District", roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}  ,{value:"REGION",label:"Region"}]},
+  { label: "Counties"              , value: "COUNTY"   , defaultLineWidth: 2.5, idfieldname: "CO_NAME"  , idfieldtype: "string", chartfileprefix: "CO_NAME"  , charttitletext: ""                , legendtitletext: "County"  , roundchartvalues:1, minScaleForLabels: 2000000, compareGeos:[                                                                                                                  {value:"REGION",label:"Region"}]},
+  // { label: "Wasatch Choice Centers", value: "CENTER"   , defaultLineWidth: 5.0, idfieldname: "CenterName", idfieldtype: "string", chartfileprefix: "CenterName", charttitletext: ""                , legendtitletext: "Center"    , roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}                                       ,{value:"REGION",label:"Region"}]},
+  // { label: "Other Areas"           , value: "OTHERAREA", defaultLineWidth: 5.0, idfieldname: "OtherArea", idfieldtype: "string", chartfileprefix: "OtherArea", charttitletext: ""                , legendtitletext: "Area"    , roundchartvalues:1, minScaleForLabels: 1000000, compareGeos:[                                                                               {value:"COUNTY",label:"County"}                                       ,{value:"REGION",label:"Region"}]}
 ];
 
 
@@ -375,36 +378,36 @@ startup: function() {
         }
     });
 
-    // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
-    dojo.xhrGet({
-      url: "widgets/SESidebar/data/chart/CENTER_DevAcres.json",
-      handleAs: "json",
-      load: function(obj) {
-          /* here, obj will already be a JS object deserialized from the JSON response */
-          console.log('CENTER_DevAcres.json');
-          acres_center = obj;
-      },
-      error: function(err) {
-          /* this will execute if the response couldn't be converted to a JS object,
-              or if the request was unsuccessful altogether. */
-      }
-    }); 
+    // // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
+    // dojo.xhrGet({
+    //   url: "widgets/SESidebar/data/chart/CENTER_DevAcres.json",
+    //   handleAs: "json",
+    //   load: function(obj) {
+    //       /* here, obj will already be a JS object deserialized from the JSON response */
+    //       console.log('CENTER_DevAcres.json');
+    //       acres_center = obj;
+    //   },
+    //   error: function(err) {
+    //       /* this will execute if the response couldn't be converted to a JS object,
+    //           or if the request was unsuccessful altogether. */
+    //   }
+    // }); 
     
                 
-    // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
-    dojo.xhrGet({
-      url: "widgets/SESidebar/data/chart/OTHERAREA_DevAcres.json",
-      handleAs: "json",
-      load: function(obj) {
-          /* here, obj will already be a JS object deserialized from the JSON response */
-          console.log('OTHERAREA_DevAcres.json');
-          acres_otherarea = obj;
-      },
-      error: function(err) {
-          /* this will execute if the response couldn't be converted to a JS object,
-              or if the request was unsuccessful altogether. */
-      }
-    }); 
+    // // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
+    // dojo.xhrGet({
+    //   url: "widgets/SESidebar/data/chart/OTHERAREA_DevAcres.json",
+    //   handleAs: "json",
+    //   load: function(obj) {
+    //       /* here, obj will already be a JS object deserialized from the JSON response */
+    //       console.log('OTHERAREA_DevAcres.json');
+    //       acres_otherarea = obj;
+    //   },
+    //   error: function(err) {
+    //       /* this will execute if the response couldn't be converted to a JS object,
+    //           or if the request was unsuccessful altogether. */
+    //   }
+    // }); 
 
     // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
     dojo.xhrGet({
@@ -420,6 +423,21 @@ startup: function() {
                 or if the request was unsuccessful altogether. */
         }
     });
+
+    // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
+    dojo.xhrGet({
+      url: "widgets/SESidebar/data/chart/DISTLRG_DevAcres.json",
+      handleAs: "json",
+      load: function(obj) {
+          /* here, obj will already be a JS object deserialized from the JSON response */
+          console.log('DISTLRG_DevAcres.json');
+          acres_distmed = obj;
+      },
+      error: function(err) {
+          /* this will execute if the response couldn't be converted to a JS object,
+              or if the request was unsuccessful altogether. */
+      }
+  });
     
     // Populate areas for chart calcs - HOPEFULLY SHORT-TERM FIX
     dojo.xhrGet({
@@ -799,10 +817,10 @@ startup: function() {
         cChartBasic.addSeries(dCat[c].label, [{x: 0, y: 0}, {x: 1, y: 0}], {stroke: {color: new Color(dCat[c].chartcolor), width: 3}, fill: new Color(dCat[c].chartcolor)})
     }
 
-    // for old numbers
-    for (c in dCat) {
-        cChart.addSeries(dCat[c].label + " - 2019 RTP", [{x: 0, y: 0}, {x: 1, y: 0}], {stroke: {color: new Color(dCat[c].chartcolor), width: 1}, fill: new Color(dCat[c].chartcolor)})
-    }
+    // // for old numbers
+    // for (c in dCat) {
+    //     cChart.addSeries(dCat[c].label + " - 2019 RTP", [{x: 0, y: 0}, {x: 1, y: 0}], {stroke: {color: new Color(dCat[c].chartcolor), width: 1}, fill: new Color(dCat[c].chartcolor)})
+    // }
 
     // Create the legend
     //lLegendOne = new Legend({ chart: cChart }, "legendOne");
@@ -984,29 +1002,39 @@ _updateDisplay_Step2_MainLayer: function() {
         var currentLayerInfo = layerInfosObject._layerInfos[j];
         if (currentLayerInfo.title == _sLayerName) { //must mach layer title
             lyrDisplay = layerInfosObject._layerInfos[j].layerObject;
+        
         } else if (currentLayerInfo.title == sCityAreas) { //must mach layer title
             var _lyrCityAreas = layerInfosObject._layerInfos[j].layerObject;
         } else if (currentLayerInfo.title == sCityAreasOutline) { //must mach layer title
             var _lyrCityAreasOutline = layerInfosObject._layerInfos[j].layerObject;
 
-        } else if (currentLayerInfo.title == sCenter) { //must mach layer title
-            var _lyrCenter = layerInfosObject._layerInfos[j].layerObject;
-        } else if (currentLayerInfo.title == sCenterOutline) { //must mach layer title
-            var _lyrCenterOutline = layerInfosObject._layerInfos[j].layerObject;
+        // } else if (currentLayerInfo.title == sCenter) { //must mach layer title
+        //     var _lyrCenter = layerInfosObject._layerInfos[j].layerObject;
+        // } else if (currentLayerInfo.title == sCenterOutline) { //must mach layer title
+        //     var _lyrCenterOutline = layerInfosObject._layerInfos[j].layerObject;
 
-        } else if (currentLayerInfo.title == sOtherAreas) { //must mach layer title
-            var _lyrOtherAreas = layerInfosObject._layerInfos[j].layerObject;
-        } else if (currentLayerInfo.title == sOtherAreasOutline) { //must mach layer title
-            var _lyrOtherAreasOutline = layerInfosObject._layerInfos[j].layerObject;
+        // } else if (currentLayerInfo.title == sOtherAreas) { //must mach layer title
+        //     var _lyrOtherAreas = layerInfosObject._layerInfos[j].layerObject;
+        // } else if (currentLayerInfo.title == sOtherAreasOutline) { //must mach layer title
+        //     var _lyrOtherAreasOutline = layerInfosObject._layerInfos[j].layerObject;
 
         } else if (currentLayerInfo.title == sDistMed) { //must mach layer title
             var _lyrDistMed = layerInfosObject._layerInfos[j].layerObject;
         } else if (currentLayerInfo.title == sDistMedOutline) { //must mach layer title
             var _lyrDistMedOutline = layerInfosObject._layerInfos[j].layerObject;
+
+
+        } else if (currentLayerInfo.title == sDistLrg) { //must mach layer title
+            var _lyrDistLrg = layerInfosObject._layerInfos[j].layerObject;
+        } else if (currentLayerInfo.title == sDistLrgOutline) { //must mach layer title
+            var _lyrDistLrgOutline = layerInfosObject._layerInfos[j].layerObject;
+
+
         } else if (currentLayerInfo.title == sCounty) { //must mach layer title
             var _lyrCounty = layerInfosObject._layerInfos[j].layerObject;
         } else if (currentLayerInfo.title == sCountyOutline) { //must mach layer title
             var _lyrCountyOutline = layerInfosObject._layerInfos[j].layerObject;
+        
         } else if (currentLayerInfo.title == sMasks) {
             lyrMasks = layerInfosObject._layerInfos[j].layerObject;
         } else if (currentLayerInfo.title == sCenters) {
@@ -1301,7 +1329,7 @@ _updateDisplay_Step2_MainLayer: function() {
             }
 
             if (curGeo=='TAZ' && dom.byId('chkTAZIDLabels').checked==true) {
-              _exp = "'TAZ ' + $feature['TAZID'] + ': ' + " + _exp;
+              _exp = "'TAZ ' + $feature['CO_TAZID'] + ': ' + " + _exp;
             }
 
             // create a text symbol to define the style of labels
@@ -1348,14 +1376,17 @@ _updateDisplay_Step2_MainLayer: function() {
         _lyrCityAreasOutline .setLabelingInfo([labelClassOff])
         _lyrCityAreas        .show();
         _lyrCityAreasOutline .show();
-        _lyrCenter           .hide();
-        _lyrCenterOutline    .hide();
-        _lyrOtherAreas       .hide();
-        _lyrOtherAreasOutline.hide();
+        // _lyrCenter           .hide();
+        // _lyrCenterOutline    .hide();
+        // _lyrOtherAreas       .hide();
+        // _lyrOtherAreasOutline.hide();
         _lyrDistMed          .hide();
         _lyrDistMedOutline   .hide();
+        _lyrDistLrg          .hide();
+        _lyrDistLrgOutline   .hide();
         _lyrCounty           .hide();
         _lyrCountyOutline    .hide();
+
     } else if ((curGeo=="DISTMED" && _checkedCompareGeos==false) || (curGeo=="TAZ" && _checkedCompareGeos==true && curGeoCompare=='DISTMED')) {
         _lyrDistMed          .setRenderer(_rs);
         _lyrDistMedOutline   .setRenderer(_rs_outline);
@@ -1363,14 +1394,35 @@ _updateDisplay_Step2_MainLayer: function() {
         _lyrDistMedOutline   .setLabelingInfo([labelClassOff])
         _lyrCityAreas        .hide();
         _lyrCityAreasOutline .hide();
-        _lyrCenter           .hide();
-        _lyrCenterOutline    .hide();
-        _lyrOtherAreas       .hide();
-        _lyrOtherAreasOutline.hide();
+        // _lyrCenter           .hide();
+        // _lyrCenterOutline    .hide();
+        // _lyrOtherAreas       .hide();
+        // _lyrOtherAreasOutline.hide();
         _lyrDistMed          .show();
         _lyrDistMedOutline   .show();
+        _lyrDistLrg          .hide();
+        _lyrDistLrgOutline   .hide();
         _lyrCounty           .hide();
         _lyrCountyOutline    .hide();
+
+    } else if ((curGeo=="DISTLRG" && _checkedCompareGeos==false) || (curGeo=="TAZ" && _checkedCompareGeos==true && curGeoCompare=='DISTLRG')) {
+        _lyrDistLrg          .setRenderer(_rs);
+        _lyrDistLrgOutline   .setRenderer(_rs_outline);
+        _lyrDistLrg          .setLabelingInfo([labelClassOff])
+        _lyrDistMedOutline   .setLabelingInfo([labelClassOff])
+        _lyrCityAreas        .hide();
+        _lyrCityAreasOutline .hide();
+        // _lyrCenter           .hide();
+        // _lyrCenterOutline    .hide();
+        // _lyrOtherAreas       .hide();
+        // _lyrOtherAreasOutline.hide();
+        _lyrDistMed          .hide();
+        _lyrDistMedOutline   .hide();
+        _lyrDistLrg          .show();
+        _lyrDistLrgOutline   .show();
+        _lyrCounty           .hide();
+        _lyrCountyOutline    .hide();
+
     } else if ((curGeo=="COUNTY" && _checkedCompareGeos==false) || (_checkedCompareGeos==true && curGeoCompare=='COUNTY')) {
         _lyrCounty           .setRenderer(_rs);
         _lyrCountyOutline    .setRenderer(_rs_outline);
@@ -1378,77 +1430,17 @@ _updateDisplay_Step2_MainLayer: function() {
         _lyrCountyOutline    .setLabelingInfo([labelClassOff])
         _lyrCityAreas        .hide();
         _lyrCityAreasOutline .hide();
-        _lyrCenter           .hide();
-        _lyrCenterOutline    .hide();
-        _lyrOtherAreas       .hide();
-        _lyrOtherAreasOutline.hide();
+        // _lyrCenter           .hide();
+        // _lyrCenterOutline    .hide();
+        // _lyrOtherAreas       .hide();
+        // _lyrOtherAreasOutline.hide();
         _lyrDistMed          .hide();
         _lyrDistMedOutline   .hide();
+        _lyrDistLrg          .hide();
+        _lyrDistLrgOutline   .hide();
         _lyrCounty           .show();
         _lyrCountyOutline    .show();
     
-    } else if (_checkedCompareGeos==true && curGeoCompare=='CENTER') {
-        _lyrCenter           .setRenderer(_rs);
-        _lyrCenterOutline    .setRenderer(_rs_outline);
-        _lyrCenter           .setLabelingInfo([labelClassOff])
-        _lyrCenterOutline    .setLabelingInfo([labelClassOff])
-        _lyrCityAreas        .hide();
-        _lyrCityAreasOutline .hide();
-        _lyrCenter           .show();
-        _lyrCenterOutline    .show();
-        _lyrOtherAreas       .hide();
-        _lyrOtherAreasOutline.hide();
-        _lyrDistMed          .hide();
-        _lyrDistMedOutline   .hide();
-        _lyrCounty           .hide();
-        _lyrCountyOutline    .hide();
-    
-      } else if (curGeo=="CENTER") {
-        _lyrCenter           .setRenderer(_rs);
-        _lyrCenterOutline    .setRenderer(_rs_outline);
-        _lyrCenter           .setLabelingInfo([labelClassOff])
-        _lyrCenterOutline    .setLabelingInfo([labelClassOff])
-        _lyrOtherAreas       .hide();
-        _lyrOtherAreasOutline.hide();
-        _lyrCityAreas        .hide();
-        _lyrCityAreasOutline .hide();
-        _lyrCenter           .show();
-        _lyrCenterOutline    .show();
-        _lyrDistMed          .hide();
-        _lyrDistMedOutline   .hide();
-        _lyrCounty           .hide();
-        _lyrCountyOutline    .hide();
-
-    } else if (_checkedCompareGeos==true && curGeoCompare=='OTHERAREA') {
-        _lyrOtherAreas       .setRenderer(_rs);
-        _lyrOtherAreasOutline.setRenderer(_rs_outline);
-        _lyrOtherAreas       .setLabelingInfo([labelClassOff])
-        _lyrOtherAreasOutline.setLabelingInfo([labelClassOff])
-        _lyrCityAreas        .hide();
-        _lyrCityAreasOutline .hide();
-        _lyrCenter           .hide();
-        _lyrCenterOutline    .hide();
-        _lyrOtherAreas       .show();
-        _lyrOtherAreasOutline.show();
-        _lyrDistMed          .hide();
-        _lyrDistMedOutline   .hide();
-        _lyrCounty           .hide();
-        _lyrCountyOutline    .hide();
-    } else if (curGeo=="OTHERAREA") {
-        _lyrOtherAreas       .setRenderer(_rs);
-        _lyrOtherAreasOutline.setRenderer(_rs_outline);
-        _lyrOtherAreas       .setLabelingInfo([labelClassOff])
-        _lyrOtherAreasOutline.setLabelingInfo([labelClassOff])
-        _lyrOtherAreas       .show();
-        _lyrOtherAreasOutline.show();
-        _lyrCityAreas        .hide();
-        _lyrCityAreasOutline .hide();
-        _lyrCenter           .hide();
-        _lyrCenterOutline    .hide();
-        _lyrDistMed          .hide();
-        _lyrDistMedOutline   .hide();
-        _lyrCounty           .hide();
-        _lyrCountyOutline    .hide();
     } else {
         _lyrCityAreas        .hide();
         _lyrCityAreasOutline .hide();
@@ -1458,6 +1450,8 @@ _updateDisplay_Step2_MainLayer: function() {
         _lyrOtherAreasOutline.hide();
         _lyrDistMed          .hide();
         _lyrDistMedOutline   .hide();
+        _lyrDistLrg          .hide();
+        _lyrDistLrgOutline   .hide();
         _lyrCounty           .hide();
         _lyrCountyOutline    .hide();
     }
@@ -1509,12 +1503,12 @@ _updateChart: function() {
 
     dom.byId('DETAILSTITLE').innerHTML = '<h2>' + dGeo.find(o => o.value === curGeo).charttitletext + curID + ' Trends</h2>';
 
-    if (curGeo=='TAZ'){
-        new Tooltip({
-            connectId : ["DETAILSTITLE"],
-            label     : "<div  class=\"tooltip\" >CO_TAZID " + String(taz.find(o => o.TAZID === curID).CO_TAZID) + "</div>"
-        });
-    }
+    // if (curGeo=='TAZ'){
+    //     new Tooltip({
+    //         connectId : ["DETAILSTITLE"],
+    //         label     : "<div  class=\"tooltip\" >CO_TAZID " + String(taz.find(o => o.CO_TAZID === curID).CO_TAZID) + "</div>"
+    //     });
+    // }
 
     cChart      .fullRender();
     cChartBasic .fullRender();
@@ -1537,11 +1531,6 @@ _updateChart: function() {
       dom.byId('DETAILSBASIC'    ).style.display = ''    ;
       dom.byId('DETAILSADVANCED' ).style.display = 'none';
       dom.byId('NEWFORECASTTITLE').innerHTML = 'Forecast';
-    } else if (sMode=='ADVANCED') {
-      dom.byId('DETAILS'        ).style.display = ''    ;
-      dom.byId('DETAILSBASIC'   ).style.display = 'none';
-      dom.byId('DETAILSADVANCED').style.display = ''    ;
-      dom.byId('NEWFORECASTTITLE').innerHTML = 'New Forecast';
     }
 
     // build table
@@ -1649,12 +1638,13 @@ _buildTable: function() {
             if (curTblVal=='density') {
                 // get acres
                 switch (curGeo) {
-                    case ('TAZ'      ): var _acres = acres_taz      .find(o => o.TAZID     === curID).DEVACRES; break;
-                    case ('CITYAREA' ): var _acres = acres_cityarea .find(o => o.CityArea  === curID).DEVACRES; break;
-                    case ('DISTMED'  ): var _acres = acres_distmed  .find(o => o.DISTMED   === curID).DEVACRES; break;
+                    case ('TAZ'      ): var _acres = acres_taz      .find(o => o.CO_TAZID     === curID).DEVACRES; break;
+                    case ('CITYAREA' ): var _acres = acres_cityarea .find(o => o.CITY_NAME  === curID).DEVACRES; break;
+                    case ('DISTMED'  ): var _acres = acres_distmed  .find(o => o.DMED_NAME   === curID).DEVACRES; break;
+                    case ('DISTLRG'  ): var _acres = acres_distlrg  .find(o => o.DLRG_NAME   === curID).DEVACRES; break;
                     case ('COUNTY'   ): var _acres = acres_county   .find(o => o.CO_NAME   === curID).DEVACRES; break;
-                    case ('CENTER'   ): var _acres = acres_center   .find(o => o.CenterName === curID).DEVACRES; break;
-                    case ('OTHERAREA'): var _acres = acres_otherarea.find(o => o.OtherArea === curID).DEVACRES; break;
+                    // case ('CENTER'   ): var _acres = acres_center   .find(o => o.CenterName === curID).DEVACRES; break;
+                    // case ('OTHERAREA'): var _acres = acres_otherarea.find(o => o.OtherArea === curID).DEVACRES; break;
                 }
                 _value_New = (_value_New / _acres).toFixed(2);
                 _value_Old = (_value_Old / _acres).toFixed(2);
@@ -1819,13 +1809,13 @@ _checkSELabel: function() {
 onReceiveData: function(name, widgetId, data, historyData) {
   console.log('onReceiveData');
   
-  if (data.message=="TurnOnAdvanced") {
-    sMode="ADVANCED";
-    this._turnOnAdvanced(); 
-  } else if(data.message=="TurnOnBasic") {
-    sMode="BASIC";
-    this._turnOnBasic();
-  }
+  // if (data.message=="TurnOnAdvanced") {
+  //   sMode="ADVANCED";
+  //   this._turnOnAdvanced(); 
+  // } else if(data.message=="TurnOnBasic") {
+  //   sMode="BASIC";
+  //   this._turnOnBasic();
+  // }
   
 },
 onOpen: function() {
@@ -2286,7 +2276,7 @@ _changeZoom: function(){
     query = new esri.tasks.Query();
     query.returnGeometry = true;
     query.outFields = ["*"];
-    query.where = "TAZID = " + _findTAZID;
+    query.where = "CO_TAZID = " + _findTAZID;
     
     queryTask.execute(query, showResults);
     
