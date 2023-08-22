@@ -37,7 +37,7 @@ dGeo = [
 ];
 
 
-var curGeo = 'TAZ';
+var curGeo = 'DISTMED';
 var curGeoCompare = 'CITYAREA';
 
 var dCat = [
