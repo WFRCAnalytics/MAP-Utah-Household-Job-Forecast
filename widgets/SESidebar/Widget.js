@@ -21,6 +21,7 @@ sCentersOutline    = 'Wasatch Choice 2050 Centers (Vision Map) - WC2050Centers O
 sSAP_BRT           = 'Qualifying BRT Station Buffers quarter mile';
 sSAP_TRAX          = 'TRAX or Streetcar Station Buffers half mile';
 sSAP_FrontRunner   = 'FrontRunner Station Buffers half mile';
+sCountyOutline2    =  'Counties'
 
 var WIDGETPOOLID_LEGEND = 4;
 
@@ -126,6 +127,7 @@ var lyrDisplay;
 var lyrDisplayCompare;
 var lyrMasks;
 var lyrREMMBoundary;
+var lyrCountOutline2;
 var lyrCenters;
 var lyrCentersOutline;
 
@@ -1037,18 +1039,28 @@ _updateDisplay_Step2_MainLayer: function() {
         
         } else if (currentLayerInfo.title == sMasks) {
             lyrMasks = layerInfosObject._layerInfos[j].layerObject;
+
+        } else if (currentLayerInfo.title == sCountyOutline2) {
+            lyrCountOutline2 = layerInfosObject._layerInfos[j].layerObject;
+
         } else if (currentLayerInfo.title == sCenters) {
             lyrCenters = layerInfosObject._layerInfos[j].layerObject;
+
         } else if (currentLayerInfo.title == sCentersOutline) {
             lyrCentersOutline = layerInfosObject._layerInfos[j].layerObject;
+
         } else if (currentLayerInfo.title == sSAP_BRT) {
             lyrSAP_BRT = layerInfosObject._layerInfos[j].layerObject;
+
         } else if (currentLayerInfo.title == sSAP_TRAX) {
             lyrSAP_TRAX = layerInfosObject._layerInfos[j].layerObject;
+
         } else if (currentLayerInfo.title == sSAP_FrontRunner) {
             lyrSAP_FrontRunner = layerInfosObject._layerInfos[j].layerObject;
+
         } else if (currentLayerInfo.title == sREMMBoundary) {
             lyrREMMBoundary = layerInfosObject._layerInfos[j].layerObject;
+
         } else {
             layerInfosObject._layerInfos[j].layerObject.hide(); // hide all other layers
         }
@@ -2160,6 +2172,17 @@ _incrementUp: function() {
   }
 },
 
+_checkCounty2: function() {
+  console.log('_checkCounty2');
+  if (dom.byId("chkCounty2").checked == true) {
+    lyrCountOutline2       .show();
+  } else {
+    lyrCountOutline2      .hide();
+
+  }
+},
+
+
 _checkCenters: function() {
   console.log('_checkCenters');
   if (dom.byId("chkCenters").checked == true) {
@@ -2205,18 +2228,18 @@ _checkLabels: function() {
 },
 
 
-_checkUtahCountyMask: function() {
-  console.log('_checkUtahCountyMask');
+// _checkUtahCountyMask: function() {
+//   console.log('_checkUtahCountyMask');
 
-  if (dom.byId("chkUtahCountyMask").checked == true) {
-      lyrMasks.setDefinitionExpression("Masks IN ('FullMask','NoMask')");
-      lyrMasks.refresh();
-  } else {
-      lyrMasks.setDefinitionExpression("");
-      lyrMasks.refresh();
-  }
+//   if (dom.byId("chkUtahCountyMask").checked == true) {
+//       lyrMasks.setDefinitionExpression("Masks IN ('FullMask','NoMask')");
+//       lyrMasks.refresh();
+//   } else {
+//       lyrMasks.setDefinitionExpression("");
+//       lyrMasks.refresh();
+//   }
 
-},
+// },
 
 _changeZoom: function(){
     dScale = wSE.map.getScale();
