@@ -3,13 +3,13 @@
     "name": "JewelryBoxTheme",
     "styles": [
       "yellow",
+      "blue",
       "cyan",
       "red",
       "default",
       "purple",
       "black",
-      "green",
-      "blue"
+      "green"
     ],
     "version": "2.20",
     "sharedTheme": {
@@ -18,16 +18,16 @@
       "useLogo": false
     },
     "customStyles": {
-      "mainBackgroundColor": "#a52a2a"
+      "mainBackgroundColor": "#0e3669"
     }
   },
   "portalUrl": "https://wfrc.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
   "title": "Utah Household and Job Forecast Viewer",
-  "subtitle": "hosted by: Wasatch Front Regional Council",
+  "subtitle": "",
   "keepAppState": true,
-  "logo": "images/utah_unified_plan_logo.png",
+  "logo": "images/logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {

@@ -1,0 +1,30 @@
+[
+	{
+		"PLAN_AREA":"Cache MPO",
+		"DEVACRES":490693.4375
+	},
+	{
+		"PLAN_AREA":"Iron County (UDOT)",
+		"DEVACRES":1838269.375
+	},
+	{
+		"PLAN_AREA":"MAG",
+		"DEVACRES":790508.75
+	},
+	{
+		"PLAN_AREA":"Summit-Wasatch (MAG-UDOT)",
+		"DEVACRES":1345085.625
+	},
+	{
+		"PLAN_AREA":"USTM (UDOT)",
+		"DEVACRES":35721976.0
+	},
+	{
+		"PLAN_AREA":"Dixie MPO",
+		"DEVACRES":1094651.75
+	},
+	{
+		"PLAN_AREA":"WFRC",
+		"DEVACRES":657899.75
+	}
+]
