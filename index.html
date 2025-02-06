@@ -1,57 +1,85 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="format-detection" content="telephone=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-  <title>ArcGIS Web Application</title>
-  <!-- <link rel="shortcut icon" href="images/shortcut2.ico"> -->
-  <!--[if IE 8]>
-    <link rel="stylesheet" type="text/css"  href="jimu.js/css/jimu-ie.css" />
-  <![endif]-->
-  <style type="text/css">
-    * {
-      box-sizing: border-box;
-    }
-    body,
-    html {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    #main-loading {
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      overflow: hidden;
-    }
-    #main-page {
-      display: none;
-      width: 100%;
-      height: 100%;
-      position: relative;
-    }
-    #jimu-layout-manager {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-    }
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <title>ArcGIS Web Application</title>
+    <!-- <link rel="shortcut icon" href="images/shortcut2.ico"> -->
+    <!--[if IE 8]>
+      <link rel="stylesheet" type="text/css" href="jimu.js/css/jimu-ie.css" />
+    <![endif]-->
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #main-loading {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+      }
+      #main-page {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      #jimu-layout-manager {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
 
-    #unsupported-browser-message{
+      #unsupported-browser-message {
         width: 100%;
         height: 100%;
         position: absolute;
         left: 0;
         top: 0;
-        background: rgba(0,0,0,0.6);
+        background: rgba(0, 0, 0, 0.6);
 
         display: none;
         align-items: center;
         justify-content: center;
         z-index: 1000;
+      }
+
+      .splash-page {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7); /* Translucent background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        color: white;
+      }
+
+      .splash-content {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #01395f;
+        background-color: rgba(128, 128, 128, 0.95);
+        border: 2px solid #ccc;
+        padding: 1px 5px;
+        width: 40vw;
       }
 
       .browser-message {
@@ -69,13 +97,13 @@
         display: flex;
         justify-content: flex-end;
       }
-      .browser-button-container button{
+      .browser-button-container button {
         cursor: pointer;
         border: none;
         background: transparent;
       }
 
-      .browser-button-container img{
+      .browser-button-container img {
         width: 20px;
         height: 20px;
       }
@@ -112,91 +140,156 @@
         height: auto;
       }
 
-      @media (min-width:700px) {
+      @media (min-width: 700px) {
         .browser-logo img {
           width: 4rem;
         }
       }
-  </style>
-  <link rel="stylesheet" type="text/css" href="configs/loading/loading.css" />
-  <script>
-    /*******************************
-     * This is the function you can modify to customize the loading page
-     * This function will be invoked when one resource is loaded.
-     ********************************/
-    // var progress;
-    // function loadingCallback(url, i, count) {
-    // 	var loading = document.getElementById('main-loading-bar');
-    // 	loading.setAttribute('title', url);
-    //   if(!progress){
-    //     progress = document.createElement('div');
-    //     progress.setAttribute('class', 'loading-progress');
-    //     loading.appendChild(progress);
-    //   }
-    //   progress.style.width = (((i - 1)/count) * 100) + '%';
-    // }
-  </script>
-</head>
+    </style>
+    <link rel="stylesheet" type="text/css" href="configs/loading/loading.css" />
+    <script>
+      /*******************************
+       * This is the function you can modify to customize the loading page
+       * This function will be invoked when one resource is loaded.
+       ********************************/
+      // var progress;
+      // function loadingCallback(url, i, count) {
+      // 	var loading = document.getElementById('main-loading-bar');
+      // 	loading.setAttribute('title', url);
+      //   if(!progress){
+      //     progress = document.createElement('div');
+      //     progress.setAttribute('class', 'loading-progress');
+      //     loading.appendChild(progress);
+      //   }
+      //   progress.style.width = (((i - 1)/count) * 100) + '%';
+      // }
+    </script>
+  </head>
 
-<body class="claro jimu-main-font">
-
-  <div id="main-loading">
-
-    <!-- This is section you can modify to customize the loading page -->
-    <div id="app-loading"></div>
-    <div id="loading-gif"></div>
-
-    <!-- //////////////////    END    ////////////////////////////// -->
-    <!--[if IE 8]>
-    <div id="ie-note" style="display:none;">
-      <div class="hint-title">Error</div>
-      <div class="hint-img">Your browser is currently not supported.</div>
-      <p class="hint-text">
-        <span>
-          Please note that creating presentations is not supported in Internet Explorer versions 6, 7.
-        </span>
-        <br>
-        <span>
-          We recommend upgrading to the latest Internet Explorer, Google Chrome, or Firefox.
-        </span>
-        <br>
-        <span>
-          If you are using IE 8 or later, make sure you turn off "Compatibility View".
-        </span>
-      </p>
-    </div>
-    <![endif]-->
-  </div>
-  <div id="main-page" role="application">
-    <div class="trapLinkNode" tabindex="0"></div>
-    <div id="jimu-layout-manager"></div>
-    <div id="skipContainer"></div>
-    <div class="trapLinkNode lastTrapLinkNode" tabindex="0"></div>
-  </div>
-
-  <div id="unsupported-browser-message">
-    <div class="browser-message">
-      <div class="browser-button-container">
-        <button><img src="./browser-message/close.png"></button>
+  <body class="claro jimu-main-font">
+    <!-- Splash Page -->
+    <div id="splash-page" class="splash-page">
+      <div class="splash-content">
+        <br />
+        <p>
+        <img src="images\utah_unified_plan_logo.png" alt="" width="200"/>
+        </p>
+        <p>Welcome to the <b>Utah Household and Job Forecast Viewer!</b></p>
+        <br />
+        <p>
+          • For optimal viewing, please use a large screen (laptop or larger)
+        </p>
+        <p>
+          • This app uses a large dataset — please allow some time for the
+          initial load
+        </p>
+        <br />
+        <p>
+          • To download this data: Click the <em>"Download Data" link</em> at
+          the top
+        </p>
+        <p>
+          • Need more Info? Click the <em>"Info" icon</em> in the top-right
+          corner
+        </p>
+        <br />
+        <p>• Data last updated: Fall 2023</p>
+        <p>
+          • Please contact
+          <b
+            ><a href="analytics@wfrc.org" style="color: rgb(150, 0, 25)"
+              >analytics@wfrc.org</a
+            ></b
+          >
+          for additional information.
+        </p>
+        <br />
+        <p><em>Click anywhere to continue...</em></p>
+        <br />
+        
       </div>
-      <h1 class="browser-message-title" id="message-title"></h1>
-      <p class="browser-message-content" id="message-content-1"></p>
-      <p class="browser-message-content" id="message-content-2"></p>
-      <p class="browser-message-content" id="message-content-3"></p>
-      <ul id="browser-logo-list">
-        <li class="browser-logo"><a href="https://www.google.com/chrome/"><img alt="Chrome" src="./browser-message/chrome.png"></a></li>
-        <li class="browser-logo"><a href="https://www.mozilla.org/firefox/"><img alt="Firefox" src="./browser-message/firefox.png"></a></li>
-        <li class="browser-logo"><a href="https://www.apple.com/safari/"><img alt="Safari" src="./browser-message/safari.png"></a></li>
-        <li class="browser-logo"><a href="https://www.microsoft.com/edge"><img alt="Edge" src="./browser-message/edge.png"></a></li>
-      </ul>
     </div>
-  </div>
 
-  <script type="text/javascript" src="./service-worker-registration.js"></script>
-  <script type="text/javascript" src="env.js"></script>
-  <script type="text/javascript" src="browser-message/limited-unsupported-browser.js"></script>
-  <script type="text/javascript" src="simpleLoader.js"></script>
-  <script type="text/javascript" src="init.js"></script>
-</body>
+    <div id="main-loading">
+      <!-- This is section you can modify to customize the loading page -->
+      <div id="app-loading"></div>
+      <div id="loading-gif"></div>
 
+      <!-- //////////////////    END    ////////////////////////////// -->
+      <!--[if IE 8]>
+        <div id="ie-note" style="display: none">
+          <div class="hint-title">Error</div>
+          <div class="hint-img">Your browser is currently not supported.</div>
+          <p class="hint-text">
+            <span>
+              Please note that creating presentations is not supported in
+              Internet Explorer versions 6, 7.
+            </span>
+            <br />
+            <span>
+              We recommend upgrading to the latest Internet Explorer, Google
+              Chrome, or Firefox.
+            </span>
+            <br />
+            <span>
+              If you are using IE 8 or later, make sure you turn off
+              "Compatibility View".
+            </span>
+          </p>
+        </div>
+      <![endif]-->
+    </div>
+    <div id="main-page" role="application">
+      <div class="trapLinkNode" tabindex="0"></div>
+      <div id="jimu-layout-manager"></div>
+      <div id="skipContainer"></div>
+      <div class="trapLinkNode lastTrapLinkNode" tabindex="0"></div>
+    </div>
+
+    <div id="unsupported-browser-message">
+      <div class="browser-message">
+        <div class="browser-button-container">
+          <button><img src="./browser-message/close.png" /></button>
+        </div>
+        <h1 class="browser-message-title" id="message-title"></h1>
+        <p class="browser-message-content" id="message-content-1"></p>
+        <p class="browser-message-content" id="message-content-2"></p>
+        <p class="browser-message-content" id="message-content-3"></p>
+        <ul id="browser-logo-list">
+          <li class="browser-logo">
+            <a href="https://www.google.com/chrome/"
+              ><img alt="Chrome" src="./browser-message/chrome.png"
+            /></a>
+          </li>
+          <li class="browser-logo">
+            <a href="https://www.mozilla.org/firefox/"
+              ><img alt="Firefox" src="./browser-message/firefox.png"
+            /></a>
+          </li>
+          <li class="browser-logo">
+            <a href="https://www.apple.com/safari/"
+              ><img alt="Safari" src="./browser-message/safari.png"
+            /></a>
+          </li>
+          <li class="browser-logo">
+            <a href="https://www.microsoft.com/edge"
+              ><img alt="Edge" src="./browser-message/edge.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="./service-worker-registration.js"
+    ></script>
+    <script type="text/javascript" src="env.js"></script>
+    <script
+      type="text/javascript"
+      src="browser-message/limited-unsupported-browser.js"
+    ></script>
+    <script type="text/javascript" src="simpleLoader.js"></script>
+    <script type="text/javascript" src="init.js"></script>
+  </body>
 </html>

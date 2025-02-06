@@ -298,6 +298,15 @@
     },
     "widgets": [
       {
+        "name": "Feedback",
+        "version": "2.20",
+        "uri": "widgets/Feedback/Widget",
+        "index": 2,
+        "id": "widgets_Feedback_Widget_37",
+        "IsController": false,
+        "icon": "widgets/Feedback/images/icon.png?wab_dv=2.26"
+      },
+      {
         "name": "About",
         "version": "2.20",
         "uri": "widgets/About/Widget",
@@ -476,7 +485,7 @@
   "loadingPage": {
     "backgroundColor": "#508dca",
     "backgroundImage": {
-      "visible": false
+      "visible": true
     },
     "loadingGif": {
       "visible": true,
@@ -490,12 +499,14 @@
   "isWebTier": false,
   "httpProxy": {
     "useProxy": true,
-    "url": "https://i7-088629.wfrc1.local:3344/proxy.js"
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
   },
   "dataSource": {
     "dataSources": {},
     "settings": {}
   },
-  "logoLink": "",
-  "logoAlt": ""
+  "logoLink": "http://unifiedplan.org",
+  "logoAlt": "unifiedplan.org"
 }

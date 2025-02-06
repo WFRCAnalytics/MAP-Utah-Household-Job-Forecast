@@ -13,6 +13,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 ///////////////////////////////////////////////////////////////////////////
+// Splash page
+document
+.getElementById('splash-page')
+.addEventListener('click', function () {
+  this.style.display = 'none'; // Hide the splash page when clicked
+});
 
 var dojoConfig, jimuConfig;
 
